@@ -10,3 +10,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.carousel svg{
+  color: #1e3a8a;
+}
