@@ -10,31 +10,37 @@ export const SERVICES = [
     {
         index: 1,
         title: "media_strategy",
+        routePatam: "media-strategy",
         image: service1
     },
     {
         index: 2,
         title: "opinion_studies",
+        routePatam: "opinion-studies",
         image: service2
     },
     {
         index: 3,
         title: "government_agenda",
+        routePatam: "government-agenda",
         image: service3
     },
     {
         index: 4,
         title: "strategy_and_political_campaigns",
+        routePatam: "strategy-and-political-campaigns",
         image: service4
     },
     {
         index: 5,
         title: "lobbying",
+        routePatam: "lobbying",
         image: service5
     },
     {
         index: 6,
         title: "public_policy_evaluation",
+        routePatam: "public-policy-evaluation",
         image: service6
     }
 ]

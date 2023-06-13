@@ -12,14 +12,18 @@ import {
 } from "@material-tailwind/react";
 import logo from "../assets/logo.png"
 import { SERVICES } from "../data/services";
-import { Link } from 'react-scroll';
+// import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import LanguageMenu from './LanguageMenu';
+import { useLocation } from 'react-router-dom';
 
-export default function Example() {
+export default function NavBar() {
   const [openNav, setOpenNav] = React.useState(false);
-  const [background, setBackground] = React.useState('bg-transparent');
+  const location = useLocation();
+  const [background, setBackground] = React.useState(location.pathname === '/' ? 'bg-transparent' : 'bg-white');
   const { t } = useTranslation();
+
 
   useEffect(() => {
     window.addEventListener(
@@ -29,52 +33,43 @@ export default function Example() {
   }, []);
 
   useEffect(() => {
-    const handleScroll = () => {
-      const sectionElement = document.getElementById('us');
-      const rect = sectionElement.getBoundingClientRect();
-      const isAtBottom = rect.bottom <= window.innerHeight;
+    if (location.pathname !== '/') return
+      const handleScroll = () => {
+        const sectionElement = document.getElementById('us');
+        const rect = sectionElement.getBoundingClientRect();
+        const isAtBottom = rect.top <= window.innerHeight;
+        if (isAtBottom) {
+          setBackground('bg-white')
+          // Perform any actions you want when the scroll reaches the target section
+        }
+        else setBackground('bg-transparent')
+      };
+  
+      window.addEventListener('scroll', handleScroll);
 
-      if (isAtBottom) {
-        setBackground('bg-white')
-        // Perform any actions you want when the scroll reaches the target section
-      }
-      else setBackground('bg-transparent')
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  }, [location.pathname]);
  
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Link
-      to="banner"
-      smooth={true}
-      duration={500}
-      offset={-100}
+      to="/"
     >
       <Typography
         as="li"
         variant="small"
-        className="p-1 font-normal font-poppins cursor-pointer"
+        className={`p-1 font-normal font-poppins cursor-pointer ${background === 'bg-transparent' && !openNav ? 'text-white' : 'text-blue-gray-900'}`}
       >
         {t('home')}
       </Typography>
     </Link>
       
       <Link
-      to="us"
-      smooth={true}
-      duration={500}
-      offset={-100}
+      to="/us"
     >
       <Typography
         as="li"
         variant="small"
-        className="p-1 font-normal font-poppins cursor-pointer"
+        className={`p-1 font-normal font-poppins cursor-pointer ${background === 'bg-transparent' && !openNav ? 'text-white' : 'text-blue-gray-900'}`}
       >
           {t('us')}
       </Typography>
@@ -87,38 +82,35 @@ export default function Example() {
         }}
         >
             <MenuHandler>
-                <Button variant="text" className={`p-1 text-sm hover:bg-transparent font-light capitalize font-poppins ${background === 'bg-transparent' ? 'text-white' : 'text-blue-gray-900'} `}>{t('services')}</Button>
+                <Button variant="text" className={`text-start p-1 text-sm hover:bg-transparent font-light capitalize font-poppins ${background === 'bg-transparent' && !openNav ? 'text-white' : 'text-blue-gray-900'} `}>{t('services')}</Button>
             </MenuHandler>
-            <MenuList>
+            <MenuList >
                 {SERVICES.map((el)  =>{
-                    return <MenuItem key={el.index}>{t(el.title)}</MenuItem>
+                    return (<Link to={`/service/${el.routePatam}`} key={el.index}><MenuItem className="font-poppins">{t(el.title)}</MenuItem></Link>)
                 })}
             </MenuList>
         </Menu>
     <Link
-      to="contact"
-      smooth={true}
-      duration={500}
-      offset={-100}
+      to="/contact"
     >
       <Typography
         as="li"
         variant="small"
-        className="p-1 font-normal font-poppins cursor-pointer"
+        className={`p-1 font-normal font-poppins cursor-pointer ${background === 'bg-transparent' && !openNav ? 'text-white' : 'text-blue-gray-900'}`}
       >
           {t('contact')}
       </Typography>
     </Link>
-    <LanguageMenu textColor={background === 'bg-transparent' ? 'text-white' : 'text-blue-gray-900'}/>
+    <LanguageMenu classes={`${background === 'bg-transparent' && !openNav ? 'text-white' : 'text-blue-gray-900'} ${openNav && 'px-0'}`}/>
     </ul>
   );
  
   return (
     <>
-      <Navbar className={`sticky inset-0 z-40 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4 font-poppins border-transparent ${background}`}>
+      <Navbar className={`sticky inset-0 z-40 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4 font-poppins border-transparent ${openNav ? 'bg-white' : background}`}>
         <div className="flex items-center justify-between text-white">
             <img src={logo} alt="GSPA Consulting" className="h-[40px]" />
-            <div className={`flex items-center gap-4 font-poppins ${background === 'bg-transparent' ? 'text-white' : 'text-blue-gray-900'}`}>
+            <div className={`flex items-center gap-4 font-poppins ${background === 'bg-transparent' ? 'text-blue-gray-900 md:text-white' : 'text-blue-gray-900'}`}>
                 <div className="mr-4 hidden lg:block">{navList}</div>
                 
                 {/* <Button
@@ -129,7 +121,7 @@ export default function Example() {
                 </Button> */}
                 <IconButton
                 variant="text"
-                className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+                className={`ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden `}
                 ripple={false}
                 onClick={() => setOpenNav(!openNav)}
                 >
@@ -139,7 +131,7 @@ export default function Example() {
                     fill="none"
                     className="h-6 w-6"
                     viewBox="0 0 24 24"
-                    stroke="currentColor"
+                    stroke={background === 'bg-transparent' && !openNav ? '#fff' : 'currentColor'}
                     strokeWidth={2}
                     >
                     <path
@@ -153,7 +145,7 @@ export default function Example() {
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-6 w-6"
                     fill="none"
-                    stroke="currentColor"
+                    stroke={background === 'bg-transparent' && !openNav ? '#fff' : 'currentColor'}
                     strokeWidth={2}
                     >
                     <path
@@ -168,9 +160,7 @@ export default function Example() {
         </div>
         <MobileNav open={openNav}>
           {navList}
-          <Button variant="gradient" size="sm" fullWidth className="mb-2">
-            <span>Buy Now</span>
-          </Button>
+          
         </MobileNav>
       </Navbar>
       {/* <div className="mx-auto max-w-screen-md py-12">

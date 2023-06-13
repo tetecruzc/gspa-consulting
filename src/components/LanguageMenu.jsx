@@ -14,7 +14,7 @@ import en from '../assets/en.png'
 import es from '../assets/es.png'
 import i18n from '../i18n';
 
-export default function LanguageMenu({textColor}) {
+export default function LanguageMenu({classes}) {
   const [openMenu, setOpenMenu] = React.useState(false);
   const { t } = useTranslation();
  
@@ -33,7 +33,7 @@ export default function LanguageMenu({textColor}) {
         <Button
           {...triggers}
           variant="text"
-          className={`flex items-center gap-3 text-sm font-light capitalize tracking-normal ${textColor} font-poppins hover:bg-transparent`}
+          className={`flex items-center gap-3 text-sm font-light capitalize tracking-normal ${classes} font-poppins hover:bg-transparent`}
         >
           <Avatar src={i18n.language === 'es' ? es : en} alt={i18n.language.toUpperCase()} size="xs" />
            {t(i18n.language)}

@@ -4,9 +4,10 @@ import { useTranslation } from 'react-i18next';
 
 export default function Banner() {
   const { t } = useTranslation();
+
   return (
     <>
-        <section id="banner" className="font-poppins relative translate-y-[-75px] min-h-[90vh] py-5 bg-center bg-cover bg-no-repeat flex justify-center items-center" style={{ backgroundImage: "url(" + bannerBackground + ")" }}>
+        <section id="banner" className={`font-poppins relative translate-y-[-82px] min-h-[90vh] py-5 bg-center bg-cover bg-no-repeat flex justify-center items-center`} style={{ backgroundImage: "url(" + bannerBackground + ")" }}>
             <div className="absolute w-full h-full bg-black opacity-50 z-0"></div>
             <div className="relative mx-auto z-1">
                 <div className="absolute w-full h-full bg-black opacity-50 z-1"></div>
