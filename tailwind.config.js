@@ -16,6 +16,9 @@ export default withMT({
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif']
       },
+      colors: {
+        'blue-dark' : '#172554'
+      }
     },
   },
   plugins: [],

@@ -1,5 +1,5 @@
 import MapaMundi from "../components/svg/MapaMundi";
-import Background from "../components/svg/Background";
+// import Background from "../components/svg/Background";
 import Svg from "../components/svg/Svg";
 import { Typography, Avatar } from "@material-tailwind/react";
 import contact from '../assets/contact.png'
@@ -11,7 +11,7 @@ export default function Contact() {
   
   return (
     <>
-        <section id="contact" className="relative w-full overflow-hidden px-10 py-32 flex flex-col justify-center" >
+        <section id="contact" className="relative w-full h-full  px-4 md:px-10  flex flex-col justify-center items-center mt-10" >
             <MapaMundi classes="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-30%] z-0 scale-125"/>
             <div className="flex flex-col justify-center items-center w-full">
                 <Typography variant="h2" className="text-red-700 font-poppins px-4 font-semibold text-3xl text-center uppercase">
@@ -19,32 +19,23 @@ export default function Contact() {
                 </Typography>
                 <div className="h-[2px] w-[60px] bg-blue-900 mt-3"></div>
             </div>
-            <div className="h-max z-10 grid grid-cols-12 mt-16">
-                <div className="shadow-lg bg-gray-50 flex rounded-xl col-start-5 col-span-4 relative overflow-hidden">
-                    <Background classes="absolute top-0 left-0 w-full z-0"/>
-                    {/* <img src={contact} alt="Juan Chirinos" className="h-[120px]" /> */}
-                    <div className="flex flex-col relative">
-                        {/* <Typography variant="lead" className="text-blue-900 font-poppins px-4 font-semibold text-xl text-start">
-                            Ing. Juan Carlos Chirinos Martinez
-                        </Typography>
-                        <Typography variant="lead" className="text-blue-900 font-poppins px-4 font-semibold text-base text-start">
-                            Socio fundador de GSPA Consulting.
-                        </Typography>
-                        <Typography variant="lead" className="text-blue-900 font-poppins px-4 text-base  text-start">
-                            Director de Operaciones 
-                        </Typography> */}
-                        <div className="flex flex-col">
-                            <div className="w-full py-6 px-4">
-                                <Typography variant="lead" className="text-gray-50 font-poppins px-4 font-semibold text-xl text-start">
+            <div className="h-max z-10 grid grid-cols-12 my-16">
+                <div className="shadow-lg bg-gray-50 flex rounded-xl col-start-1 md:col-start-3 xl:col-start-5 col-span-12 md:col-span-7 xl:col-span-4 relative overflow-hidden">
+                    {/* <Background classes="absolute top-0 left-0 w-full  z-0"/> */}
+                    <div className="absolute bg-blue-dark h-[50%] w-full"></div>
+                    <div className="flex flex-col relative w-full">
+                        <div className="flex flex-col w-full">
+                            <div className="w-full md:w-[80%] py-6 pl-0 md:pl-4">
+                                <Typography variant="lead" className="text-gray-50 font-poppins px-4 font-semibold text-xl text-center md:text-start">
                                     Ing. Juan Carlos Chirinos Martinez
                                 </Typography>
-                                <Typography variant="lead" className="text-gray-50 font-poppins px-4 font-normal text-sm text-start">
+                                <Typography variant="lead" className="text-gray-50 font-poppins px-4 font-normal text-sm text-center md:text-start">
                                     {t('ceo')}
                                 </Typography>
                             </div>
-                            <Avatar src={contact} alt="Juan Chirinos" withBorder={true} className="p-0.5 border-gray-500 ml-auto mr-6 relative translate-y-[-25%]" size="xxl" />
+                            <Avatar src={contact} alt="Juan Chirinos" withBorder={true} className="p-0.5 border-gray-500 ml-auto mr-auto md:mr-6 relative md:translate-y-[-25%]" size="xxl" />
                         </div>
-                        <div className="flex flex-col justify-start px-6">
+                        <div className="flex flex-col justify-start px-6 mt-10 md:mt-0">
 
                             <div className="flex">
                                 <Svg classes="w-[20px]" name="email" fill="#7f1d1d" />

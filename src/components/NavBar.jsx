@@ -109,7 +109,9 @@ export default function NavBar() {
     <>
       <Navbar className={`sticky inset-0 z-40 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4 font-poppins border-transparent ${openNav ? 'bg-white' : background}`}>
         <div className="flex items-center justify-between text-white">
-            <img src={logo} alt="GSPA Consulting" className="h-[40px]" />
+            <Link to="/" className="cursor-pointer">
+              <img src={logo} alt="GSPA Consulting" className="h-[40px]" />
+            </Link>
             <div className={`flex items-center gap-4 font-poppins ${background === 'bg-transparent' ? 'text-blue-gray-900 md:text-white' : 'text-blue-gray-900'}`}>
                 <div className="mr-4 hidden lg:block">{navList}</div>
                 
