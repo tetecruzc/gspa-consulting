@@ -86,7 +86,7 @@ export default function NavBar() {
             </MenuHandler>
             <MenuList >
                 {SERVICES.map((el)  =>{
-                    return (<Link to={`/service/${el.routePatam}`} key={el.index}><MenuItem className="font-poppins">{t(el.title)}</MenuItem></Link>)
+                    return (<Link to={`/service/${el.routeParam}`} key={el.index}><MenuItem className="font-poppins hover:outline-0 hover:border-0">{t(el.title)}</MenuItem></Link>)
                 })}
             </MenuList>
         </Menu>

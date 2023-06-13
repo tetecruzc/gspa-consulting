@@ -3,6 +3,7 @@
     "subtitle": "Consulting in government strategy and public affairs",
     "home": "Home",
     "us": "Us",
+    "who_we_are": "Who we are",
     "services": "Services",
     "contact": "Contact",
     "media_strategy": "Media Strategy",
@@ -30,5 +31,118 @@
     "rights": "© Copyright 2023. by GSPA Consulting. All rights reserved",
     "read_more": "Read more",
     "es": "Spanish",
-    "en": "English"
+    "en": "English",
+    "media_strategy_content": [
+        {
+          "text": "At GSPA Consulting we cover the study of the media, the analysis of the speeches of politicians and those who are trying to influence the political process; as well as formal and informal conversations between members of the public, among other aspects."
+        },
+        {
+          "text": "At GSPA Consulting we take care that the government communication policy is able to take the initiative and set the agenda for public discussion through the media so that people perceive the importance of government programs and how they relate to their own priorities. For this, they must be able to get their messages across to the people clearly and forcefully, either directly or through government spokespersons. For us, it is of vital importance that the communication policy is not improvised, but rather that it must be based on a comprehensive plan that answers the traditional questions of any communication plan, allows programming the agenda of the actions for the period, carrying them out in an orderly manner – even anticipating crisis and emergency situations – and controlling and evaluating their results. To do this, we carry out 6 stages:"
+        },
+        {
+          "list": [
+            "Initial diagnostic",
+            "Goals",
+            "Strategy",
+            "Messages and target audiences",
+            "Calendar and schedule of activities",
+            "Control and evaluation"
+          ]
+        }
+      ],      
+    "opinion_studies_content": [
+        {
+          "text": "At GSPA Consulting we carry out opinion polls as quantitative research techniques that will allow you to obtain and collect information from a group of people on a certain topic or fact.",
+          "fontSize": "base"
+        },
+        {
+          "text": "At GSPA Consulting we carry out surveys that allow us to explore the perceptions, feelings, beliefs, values, needs and expectations of the target population in reference to the major issues that affect their social, economic and political development. An opinion poll is a statistical measurement taken from surveys designed to ascertain public opinion. These measurements are made through samples that are usually designed to represent the opinions of a population by asking a series of questions and then extrapolating generalities in proportion or within a confidence interval.",
+          "fontSize": "base"
+        }
+      ],
+    "government_agenda_content": [
+        {
+          "text": "The government agenda is the set of problems, demands, questions, issues, that the rulers have selected and ordered as objects of their action and, more properly, as objects on which they have decided that they should act or have considered that they have to act.",
+          "fontSize": "base"
+        },
+        {
+          "text": "At GSPA Consulting we help define and order what are those issues and demands that rulers must decide.",
+          "fontSize": "base"
+        }
+      ]
+      ,
+    "strategy_and_political_campaigns_content": [
+        {
+          "text": "The actions and efforts made by the candidates, political leaders and government officials to maintain and strengthen the support of the people towards their proposals and programs have become a critical factor both for obtaining popularly elected positions and for maintaining order and governance."
+        },
+        {
+          "text": "Faced with the new social scenarios of Latin America and the United States, At GSPA Consulting it is essential that political actors are aware that there are methods and techniques that can effectively influence the evaluations, preferences and choices of citizens, and that new citizens have better knowledge about the way in which their leaders and representatives plan, design and implement their communication campaigns."
+        },
+        {
+          "text": "It is also aimed at candidates and campaign managers in our region, with the intention of deepening their understanding of the process of strategic design, planning, organization and execution of an electoral campaign."
+        },
+        {
+            "subtitle": "Strategy"
+        },
+        {
+            "list": [
+              "Know and understand voters",
+              "Create an identifiable campaign message",
+              "Identify channels to reach voters",
+              "Promotion in social networks",
+              "Budget making"
+            ]
+        },
+        {
+            "subtitle": "Development"
+        },
+        {
+            "list": [
+              "Build a narrative",
+              "Know your constituency and voters",
+              "Brand positioning",
+              "Contrast campaign",
+              "Direct promotion",
+              "Media and public relations"
+            ]
+        }
+      ]
+      ,
+    "lobbying_content": [
+        {
+          "text": "Lobbying can be understood as an activity whose objective is to improve political decisions through the realistic perceptions of companies, associations or groups of citizens. At GSPA Consulting we seek to influence or convince key members of an organization to support a measure, legislation, cause or decision favorable to the interests of the social sector they represent."
+        },
+        {
+          "list": [
+            "Information",
+            "Actors",
+            "Alliances",
+            "Campaigns",
+            "Evaluation"
+          ]
+        }
+      ]
+      ,
+    "public_policy_evaluation_content": [
+        {
+          "list": [
+            "Innovation and science",
+            "Planning and evaluation of public services",
+            "Transportation and mobility",
+            "Smart cities"
+          ],
+          "fontSize": "medium"
+        }
+    ],
+    "who_we_are_content": [
+        {
+            "subtitle": "Consulting in government strategy and public affairs"
+        },
+        {
+            "text": "In public affairs consulting companies such as GSPA Consulting, we carry out economic, social, market or technical feasibility studies for the implementation of new policies, plans, programs or public projects. We also design these activities or policies, as well as define the strategy and operations that must be followed for its implementation or launch, then we evaluate the activities that have been launched, allowing us to know the results that have been achieved."
+        },
+        {
+            "text": "With a team of specialists, GSPA Consulting advises executive teams, boards of directors and their legal, financial and public affairs advisors in leveraging public affairs and government relations strategies to meet the demands of this political reality. Clients trust us to help them engage with their stakeholders' agendas, deliver results, and protect value."
+        }
+    ]      
 }

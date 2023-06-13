@@ -20,7 +20,7 @@ export default function Services() {
             </div>
             <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3  gap-4 md:gap-10 lg:gap-20 mt-20 px-10 sm:px-30 md:px-15 lg:px-20">
                 { SERVICES.map((el) => {
-                   return <ServiceCard key={el.index} title={t(el.title)} image={el.image}/>
+                   return <ServiceCard key={el.index} title={t(el.title)} image={el.image} routeParam={el.routeParam} />
                 })}
             </div>
         </section>

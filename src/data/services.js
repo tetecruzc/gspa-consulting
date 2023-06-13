@@ -10,37 +10,43 @@ export const SERVICES = [
     {
         index: 1,
         title: "media_strategy",
-        routePatam: "media-strategy",
-        image: service1
+        routeParam: "media-strategy",
+        image: service1,
+        content: "media_strategy_content"
     },
     {
         index: 2,
         title: "opinion_studies",
-        routePatam: "opinion-studies",
-        image: service2
+        routeParam: "opinion-studies",
+        image: service2,
+        content: "opinion_studies_content"
     },
     {
         index: 3,
         title: "government_agenda",
-        routePatam: "government-agenda",
-        image: service3
+        routeParam: "government-agenda",
+        image: service3,
+        content: "government_agenda_content",
     },
     {
         index: 4,
         title: "strategy_and_political_campaigns",
-        routePatam: "strategy-and-political-campaigns",
-        image: service4
+        routeParam: "strategy-and-political-campaigns",
+        image: service4,
+        content: "strategy_and_political_campaigns_content"
     },
     {
         index: 5,
         title: "lobbying",
-        routePatam: "lobbying",
-        image: service5
+        routeParam: "lobbying",
+        image: service5,
+        content: "lobbying_content"
     },
     {
         index: 6,
         title: "public_policy_evaluation",
-        routePatam: "public-policy-evaluation",
-        image: service6
+        routeParam: "public-policy-evaluation",
+        image: service6,
+        content: "public_policy_evaluation_content"
     }
 ]

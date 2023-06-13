@@ -1,11 +1,15 @@
 import MapaMundi from "../components/svg/MapaMundi";
 import NumberCard from "../components/NumberCard";
 import { useTranslation } from 'react-i18next';
-
+import { useNavigate } from 'react-router-dom';
 
 export default function Us() {
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
+  const handleClick = () => {
+    navigate('/us'); // Navigates to '/other-route'
+  };
   return (
     <>
         <section id="us" className="relative w-full overflow-hidden px-10 py-32 flex flex-col justify-center" >
@@ -16,7 +20,7 @@ export default function Us() {
             </div>
             <MapaMundi classes="absolute top-[-15px] right-[-35%] z-0"/>
             <MapaMundi classes="absolute bottom-[-15px] left-[-28%] z-0"/>
-            <button className="bg-white hover:bg-blue-900 text-blue-900 hover:text-white mx-auto min-w-[200px] rounded py-3 px-4 font-poppins text-sm font-medium mt-10 border-2 border-blue-900">{t('more_about_us')}</button>
+            <button onClick={handleClick} className="bg-white hover:bg-blue-900 text-blue-900 hover:text-white mx-auto min-w-[200px] rounded py-3 px-4 font-poppins text-sm font-medium mt-10 border-2 border-blue-900">{t('more_about_us')}</button>
         </section>
     </>
   )
