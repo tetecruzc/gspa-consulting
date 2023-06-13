@@ -27,9 +27,12 @@ export default function Banner() {
                     {t('subtitle')}
                   </Typography>
                   {/* <button className=" bg-red-700 mx-auto min-w-[30%] rounded  py-3 px-4 text-sm mt-3">Contacto</button> */}
+                  <a href={`https://wa.me/584146602885?text=Hola,%20me%20gustaría%20conocer%20más%20sobre%20GSPA.`} target="_blank" rel="noopener noreferrer" className='mx-auto'>
+                
                   <Button variant="filled" size="lg" className='bg-red-800 w-max mx-auto mt-6 ' ripple={true}>
                     {t('whatsapp_contact')}
                   </Button>
+                  </a>
                 </div>
             </div>
         </section>
