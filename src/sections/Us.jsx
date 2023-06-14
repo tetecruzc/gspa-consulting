@@ -8,7 +8,7 @@ export default function Us() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate('/us'); // Navigates to '/other-route'
+    navigate(`${import.meta.env.VITE_BASE_URL}us`); // Navigates to '/other-route'
   };
   return (
     <>

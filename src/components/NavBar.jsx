@@ -21,7 +21,7 @@ import { useLocation } from 'react-router-dom';
 export default function NavBar() {
   const [openNav, setOpenNav] = React.useState(false);
   const location = useLocation();
-  const [background, setBackground] = React.useState(location.pathname === '/' ? 'bg-transparent' : 'bg-white');
+  const [background, setBackground] = React.useState(location.pathname === import.meta.env.VITE_BASE_URL ? 'bg-transparent' : 'bg-white');
   const { t } = useTranslation();
 
 
@@ -33,7 +33,7 @@ export default function NavBar() {
   }, []);
 
   useEffect(() => {
-    if (location.pathname !== '/') return
+    if (location.pathname !== import.meta.env.VITE_BASE_URL) return
       const handleScroll = () => {
         const sectionElement = document.getElementById('us');
         const rect = sectionElement.getBoundingClientRect();
@@ -52,7 +52,7 @@ export default function NavBar() {
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Link
-      to="/"
+      to={`${import.meta.env.VITE_BASE_URL}`}
     >
       <Typography
         as="li"
@@ -64,7 +64,7 @@ export default function NavBar() {
     </Link>
       
       <Link
-      to="/us"
+      to={`${import.meta.env.VITE_BASE_URL}us`}
     >
       <Typography
         as="li"
@@ -86,12 +86,12 @@ export default function NavBar() {
             </MenuHandler>
             <MenuList >
                 {SERVICES.map((el)  =>{
-                    return (<Link to={`/service/${el.routeParam}`} key={el.index}><MenuItem className="font-poppins hover:outline-0 hover:border-0">{t(el.title)}</MenuItem></Link>)
+                    return (<Link to={`${import.meta.env.VITE_BASE_URL}service/${el.routeParam}`} key={el.index}><MenuItem className="font-poppins hover:outline-0 hover:border-0">{t(el.title)}</MenuItem></Link>)
                 })}
             </MenuList>
         </Menu>
     <Link
-      to="/contact"
+      to={`${import.meta.env.VITE_BASE_URL}contact`}
     >
       <Typography
         as="li"
@@ -109,7 +109,7 @@ export default function NavBar() {
     <>
       <Navbar className={`sticky inset-0 z-40 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4 font-poppins border-transparent ${openNav ? 'bg-white' : background}`}>
         <div className="flex items-center justify-between text-white">
-            <Link to="/" className="cursor-pointer">
+            <Link to={`${import.meta.env.VITE_BASE_URL}`} className="cursor-pointer">
               <img src={logo} alt="GSPA Consulting" className="h-[40px]" />
             </Link>
             <div className={`flex items-center gap-4 font-poppins ${background === 'bg-transparent' ? 'text-blue-gray-900 md:text-white' : 'text-blue-gray-900'}`}>

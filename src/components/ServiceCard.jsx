@@ -8,7 +8,7 @@ export default function ServiceCard({title, image, routeParam}) {
     const navigate = useNavigate();
 
     const handleClick = () => {
-      navigate(`/service/${routeParam}`); // Navigates to '/other-route'
+      navigate(`${import.meta.env.VITE_BASE_URL}service/${routeParam}`); // Navigates to '/other-route'
     };
     return (
         <div className="relative  h-[400px] bg-center bg-cover bg-no-repeat rounded-md overflow-hidden drop-shadow-2xl hover:scale-95 hover:drop-shadox-sm transition ease-out duration-100 cursor-pointer"  style={{ backgroundImage: "url(" + image + ")" }}>

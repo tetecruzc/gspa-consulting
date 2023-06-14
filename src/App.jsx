@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import Footer from './components/Footer';
 
 import HomePage from './pages/HomePage';
 import UsPage from './pages/UsPage';
@@ -9,10 +10,10 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<HomePage/>} />
-        <Route exact path="/us" element={<UsPage/>} />
-        <Route exact path="/service/:id" element={<ServicePage/>} />
-        <Route exact path="/contact" element={<ContactPage/>} />
+        <Route exact path={`${import.meta.env.VITE_BASE_URL}`} element={<HomePage/>} />
+        <Route exact path={`${import.meta.env.VITE_BASE_URL}us`} element={<UsPage/>} />
+        <Route exact path={`${import.meta.env.VITE_BASE_URL}service/:id`} element={<ServicePage/>} />
+        <Route exact path={`${import.meta.env.VITE_BASE_URL}contact`} element={<ContactPage/>} />
       </Routes>
     </Router>
   );
