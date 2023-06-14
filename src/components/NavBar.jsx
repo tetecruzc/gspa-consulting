@@ -35,17 +35,21 @@ export default function NavBar() {
   useEffect(() => {
     if (location.pathname !== import.meta.env.VITE_BASE_URL) return
       const handleScroll = () => {
-        const sectionElement = document.getElementById('us');
+        const sectionElement = document.getElementById('banner');
         const rect = sectionElement.getBoundingClientRect();
-        const isAtBottom = rect.top <= window.innerHeight;
+        const isAtBottom = Math.abs(rect.y) >= rect.height
         if (isAtBottom) {
           setBackground('bg-white')
           // Perform any actions you want when the scroll reaches the target section
         }
-        else setBackground('bg-transparent')
+        else { setBackground('bg-transparent')}
       };
-  
+
       window.addEventListener('scroll', handleScroll);
+  
+      return () => {
+        window.addEventListener('scroll', handleScroll);
+      }
 
   }, [location.pathname]);
  
