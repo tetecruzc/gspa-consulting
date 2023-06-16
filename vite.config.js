@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     react(),
   ],
-  base: "https://tetecruzc.github.io/gspa-consulting/",
+  base: `https://gspaconsulting.com`,
   define: {
     'process.env': {}
   }
