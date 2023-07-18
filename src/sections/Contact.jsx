@@ -1,10 +1,9 @@
 import MapaMundi from "../components/svg/MapaMundi";
 // import Background from "../components/svg/Background";
 import Svg from "../components/svg/Svg";
-import { Typography, Avatar } from "@material-tailwind/react";
+import { Typography, Avatar, Button } from "@material-tailwind/react";
 import contact from '../assets/contact.png'
 import { useTranslation } from 'react-i18next';
-
 
 export default function Contact() {
     const { t } = useTranslation();
@@ -55,6 +54,11 @@ export default function Contact() {
                                     Caracas, Venezuela
                                 </Typography>
                             </div>
+                            <a href={`https://wa.me/584146602885?text=Hola,%20me%20gustaría%20conocer%20más%20sobre%20GSPA.`} target="_blank" rel="noopener noreferrer" className='mx-auto'>
+                                <Button variant="filled" size="lg" className='bg-red-900 w-max mx-auto mb-3 ' ripple={true}>
+                                    {t('whatsapp_contact')}
+                                </Button>
+                            </a>
                         </div>
                     </div>
                 </div>

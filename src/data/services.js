@@ -48,5 +48,21 @@ export const SERVICES = [
         routeParam: "public-policy-evaluation",
         image: service6,
         content: "public_policy_evaluation_content"
-    }
+    },
+    // {
+    //     index: 7,
+    //     title: "citizen_security",
+    //     routeParam: "public-policy-evaluation",
+    //     image: service1,
+    //     content: "public_policy_evaluation_content",
+    //     noContent: true
+    // },
+    // {
+    //     index: 8,
+    //     title: "artificial_inteligence",
+    //     routeParam: "public-policy-evaluation",
+    //     image: service2,
+    //     content: "public_policy_evaluation_content",
+    //     noContent: true
+    // }
 ]

@@ -1,8 +1,8 @@
 {
 
-    "subtitle": "Consultoría en estrategia de gobierno y asuntos públicos",
+    "subtitle": "Consultoría de estrategia y operaciones en gobierno y asuntos públicos",
     "homePageTitle": "GSPA Consulting | Inicio",
-    "homePageDescription": "Consultoría en estrategia de gobierno y asuntos públicos. Realizamos estudios de factibilidad económica, social, de mercado o técnica para la implementación de nuevas políticas, planes, programas o proyectos públicos...",
+    "homePageDescription": "Consultoría de estrategia y operaciones en gobierno y asuntos públicos. Realizamos estudios de factibilidad económica, social, de mercado o técnica para la implementación de nuevas políticas, planes, programas o proyectos públicos...",
     "home": "Inicio",
     "who_we_are": "Quiénes somos",
     "us": "Nosotros",
@@ -14,6 +14,8 @@
     "strategy_and_political_campaigns": "Estrategia y desarrollo de campañas políticas",
     "lobbying" : "Lobbying",
     "public_policy_evaluation": "Evaluación de políticas públicas",
+    "citizen_security": "Seguridad Ciudadana",
+    "artificial_inteligence": "Inteligencia Artificial",
     "whatsapp_contact": "Contactar vía WhatAspp",
     "us_step_one": "Realizamos estudios de factibilidad económica, social, de mercado o técnica para la implementación de nuevas políticas, planes, programas o proyectos públicos.",
     "us_step_two": "También diseñamos estas actividades o políticas, así como definimos la estrategia y operaciones que se deben seguir para su implementación o puesta en marcha",
@@ -121,14 +123,16 @@
             "Innovación y ciencia",
             "Planificación y evaluación de servicios públicos",
             "Transporte y movilidad",
-            "Ciudades inteligentes"
+            "Ciudades inteligentes",
+            "Seguridad ciudadana",
+            "Inteligencia articicial"
           ],
           "fontSize": "medium"
         }
     ],
     "who_we_are_content": [
         {
-            "subtitle": "Consultoría en estrategia de gobierno y asuntos públicos"
+            "subtitle": "Consultoría de estrategia y operaciones en gobierno y asuntos públicos"
         },
         {
             "text": "En las empresas de consultoría de asuntos públicos como GSPA Consulting realizamos estudios económicos, sociales, de mercado o de viabilidad técnica para la puesta en marcha de nuevas políticas, planes, programas o proyectos públicos. También diseñamos dichas actividades o políticas, así como definimos la estrategia y las operaciones que se deben seguir para su puesta en marcha o lanzamiento, luego evaluamos las actividades que se han puesto en marcha, permitiendo conocer los resultados que se han alcanzado."

@@ -14,6 +14,8 @@
     "strategy_and_political_campaigns": "Strategy and development of political campaigns",
     "lobbying" : "Lobbying",
     "public_policy_evaluation": "Public Policy Evaluation",
+    "citizen_security": "Seguridad Ciudadana",
+    "artificial_inteligence": "Inteligencia Artificial",
     "whatsapp_contact": "Contact via WhatAspp",
     "us_step_one": "We carry out economic, social, market or technical feasibility studies for the implementation of new policies, plans, programs or public projects. ",
     "us_step_two": "We also design these activities or policies, as well as define the strategy and operations that must be followed for its implementation or launch",
@@ -131,7 +133,9 @@
             "Innovation and science",
             "Planning and evaluation of public services",
             "Transportation and mobility",
-            "Smart cities"
+            "Smart cities",
+            "Citizen security",
+            "Artificial intelligence"
           ],
           "fontSize": "medium"
         }

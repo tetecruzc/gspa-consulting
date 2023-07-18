@@ -40,7 +40,6 @@ export default function NavBar() {
         const isAtBottom = Math.abs(rect.y) >= rect.height
         if (isAtBottom) {
           setBackground('bg-white')
-          // Perform any actions you want when the scroll reaches the target section
         }
         else { setBackground('bg-transparent')}
       };
