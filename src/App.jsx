@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 // import Footer from './components/Footer';
 
 import HomePage from './pages/HomePage';
@@ -7,13 +7,14 @@ import ServicePage from './pages/ServicePage';
 import ContactPage from './pages/ContactPage';
 
 const App = () => {
+  
   return (
     <Router>
       <Routes>
         <Route exact path={`${import.meta.env.VITE_BASE_URL}`} element={<HomePage/>} />
-        <Route exact path={`${import.meta.env.VITE_BASE_URL}us`} element={<UsPage/>} />
-        <Route exact path={`${import.meta.env.VITE_BASE_URL}service/:id`} element={<ServicePage/>} />
-        <Route exact path={`${import.meta.env.VITE_BASE_URL}contact`} element={<ContactPage/>} />
+        <Route path={`${import.meta.env.VITE_BASE_URL}us`} element={<UsPage/>} />
+        <Route path={`${import.meta.env.VITE_BASE_URL}service/:id`} element={<ServicePage/>} />
+        <Route path={`${import.meta.env.VITE_BASE_URL}contact`} element={<ContactPage/>} />
       </Routes>
     </Router>
   );
