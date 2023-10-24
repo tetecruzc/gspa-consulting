@@ -125,7 +125,8 @@
             "Transporte y movilidad",
             "Ciudades inteligentes",
             "Seguridad ciudadana",
-            "Inteligencia artificial"
+            "Inteligencia artificial",
+            "Salud y educación"
           ],
           "fontSize": "medium"
         }
@@ -139,6 +140,22 @@
         },
         {
             "text": "Con un equipo de especialistas GSPA Consulting asesora a los equipos ejecutivos, las juntas directivas y sus asesores legales, financieros y de asuntos públicos en el aprovechamiento de las estrategias de asuntos públicos y relaciones gubernamentales para satisfacer las demandas de esta realidad política. Los clientes confían en nosotros para ayudarlos a involucrarse con las agendas de sus partes interesadas, entregar resultados y proteger el valor. "
+        },{
+          "subtitle": "Misión"
+        },
+        {
+          "text": "Proporcionar servicios de consultoría estratégica y operaciones en el área de asuntos públicos y gobierno que contribuyan a la innovación y desarrollo de las organizaciones, satisfagan sus necesidades y expectativas, así como las del conjunto de personas que trabajan en la organización para lograr rentabilidad y liderazgo en el mercado."
+        },{
+          "subtitle": "Visión"
+        },
+        {
+          "text": "Ser una compañía global de consultoría de asuntos públicos y Gobierno , orientados principalmente a organismos públicos del Estado, Organizaciones internacionales y asociaciones público-privadas, comprometida con la Innovación y la Calidad en el servicio, que incentiva el uso de las nuevas Tecnologías para generar valor y mejorar la calidad de vida de los ciudadanos y su relación con el estado."
+        },
+        {
+          "subtitle": "Valores"
+        },
+        {
+          "text": "La Consultora GSPA Consulting se rige por los valores de la Ética, la Transparencia, el Compromiso y el Talento."
         }
     ],
     "quote": "Es difícil fracasar, pero es peor nunca haber intentado tener éxito",

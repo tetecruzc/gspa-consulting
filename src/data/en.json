@@ -135,7 +135,8 @@
             "Transportation and mobility",
             "Smart cities",
             "Citizen security",
-            "Artificial intelligence"
+            "Artificial intelligence",
+            "Health and education"
           ],
           "fontSize": "medium"
         }
@@ -149,6 +150,22 @@
         },
         {
             "text": "With a team of specialists, GSPA Consulting advises executive teams, boards of directors and their legal, financial and public affairs advisors in leveraging public affairs and government relations strategies to meet the demands of this political reality. Clients trust us to help them engage with their stakeholders' agendas, deliver results, and protect value."
+        },{
+          "subtitle": "Mission"
+        },
+        {
+          "text": "Provide strategic consulting and operations services in the area of public affairs and government that contribute to the innovation and development of organizations, meeting their needs and expectations, as well as those of the group of people who work in the organization to achieve profitability and leadership in the market."
+        },{
+          "subtitle": "Vision"
+        },
+        {
+          "text": "To be a global public affairs and Government consulting company, mainly aimed at public State agencies, international organizations and public-private associations, committed to Innovation and Quality in service, which encourages the use of new Technologies to generate value and improve the quality of life of citizens and their relationship with the state."
+        },
+        {
+          "subtitle": "Values"
+        },
+        {
+          "text": "The GSPA Consulting Consultant is governed by the values of Ethics, Transparency, Commitment and Talent."
         }
     ],
     "quote": "It's hard to fail, but it's worse to never have tried to succeed.",
