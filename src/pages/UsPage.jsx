@@ -37,7 +37,7 @@ function UsPage() {
 
           <div className="col-span-9 lg:col-span-5 p-10 lg:p-20 relative h-max lg:h-full">
             {t('who_we_are_content', { returnObjects: true }).map((item, index) => {
-              if (item.text) return (<Typography key={index} className={`text-${item.fontSize ? item.fontSize : 'sm'} text-justify mt-2 font-poppins`} variant="lead" key={item.index}>{item.text}</Typography>)
+              if (item.text) return (<Typography key={index} className={`text-${item.fontSize ? item.fontSize : 'sm'} text-justify mt-2 font-poppins`} variant="lead">{item.text}</Typography>)
               else if (item.list) return (
                 <ul key={index}>
                   {item.list.map((listItem,index) => {
@@ -48,7 +48,7 @@ function UsPage() {
                 </ul>
               )
               else if (item.subtitle) return (
-                <Typography key={index} className="text-base font-medium text-justify mt-2 font-poppins text-blue-900" variant="lead" key={item.index}>{item.subtitle}</Typography>
+                <Typography key={index} className="text-base font-medium text-justify mt-2 font-poppins text-blue-900" variant="lead">{item.subtitle}</Typography>
               )
             })}
           </div>

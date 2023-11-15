@@ -3,7 +3,6 @@ import { Fragment, useEffect, useState, useRef } from "react"
 import { Avatar, Typography, Button } from "@material-tailwind/react";
 import { useTranslation } from 'react-i18next';
 import { Dialog, Transition } from '@headlessui/react'
-import { ExclamationTriangleIcon } from '@heroicons/react/24/outline'
 
 export default function TeamCard({title, text, classes, subtitle, avatar}) {
     const [shortText, setShortText] = useState('')
