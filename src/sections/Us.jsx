@@ -14,9 +14,9 @@ export default function Us() {
     <>
         <section id="us" className="relative w-full overflow-hidden px-10 py-32 flex flex-col justify-center" >
             <div className="relative flex flex-wrap justify-center z-10">
-                <NumberCard number="1" text={t('us_step_one')} classes="m-6"  />
-                <NumberCard number="2" text={t('us_step_two')} classes="m-6" />
-                <NumberCard number="3" text={t('us_step_three')} classes="m-6" />
+                <NumberCard title="1" text={t('us_step_one')} classes="m-6"  />
+                <NumberCard title="2" text={t('us_step_two')} classes="m-6" />
+                <NumberCard title="3" text={t('us_step_three')} classes="m-6" />
             </div>
             <MapaMundi classes="absolute top-[-15px] right-[-35%] z-0"/>
             <MapaMundi classes="absolute bottom-[-15px] left-[-28%] z-0"/>

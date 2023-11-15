@@ -21,6 +21,20 @@
     "us_step_two": "We also design these activities or policies, as well as define the strategy and operations that must be followed for its implementation or launch",
     "us_step_three": "Then we evaluate the activities that have been launched, allowing us to know the results that have been achieved",
     "more_about_us": "More about us",
+    "us_cards": [
+      {
+        "title": "Mission",
+        "text": "Provide strategic consulting and operations services in the area of public affairs and government that contribute to the innovation and development of organizations, meeting their needs and expectations, as well as those of the group of people who work in the organization to achieve profitability and leadership in the market."
+      },
+      {
+        "title": "Vision",
+        "text": "To be a global public affairs and Government consulting company, mainly aimed at public State agencies, international organizations and public-private associations, committed to Innovation and Quality in service, which encourages the use of new Technologies to generate value and improve the quality of life of citizens and their relationship with the state."
+      },
+      {
+        "title": "Values",
+        "text": "The GSPA Consulting Consultant is governed by the values of Ethics, Transparency, Commitment and Talent."
+      }
+    ],
     "government_strategy": "Government Strategy",
     "government_strategy_text": "A government strategy aims to obtain results with social value so it focuses on its client with whom it has a commitment. Government Strategies are part of the set of actions of the state government that are carried out in a systematically planned manner to achieve a certain purpose or mission.",
     "political_campaigns": "Political Campaigns",
@@ -30,6 +44,7 @@
     "communications": "Communications",
     "communications_text": "At GSPA Consulting we understand that government communication should aspire to fulfill the double role of providing citizens with information about government policies and making known the government's own views on controversial issues that arise during the course of the day.",
     "our_services": "Our services",
+    "our_team": "Our team",
     "contact_us_through": "Contact us through",
     "ceo": "Founding partner of GSPA Consulting.",
     "rights": "© Copyright 2023. by GSPA Consulting. All rights reserved",
@@ -150,24 +165,54 @@
         },
         {
             "text": "With a team of specialists, GSPA Consulting advises executive teams, boards of directors and their legal, financial and public affairs advisors in leveraging public affairs and government relations strategies to meet the demands of this political reality. Clients trust us to help them engage with their stakeholders' agendas, deliver results, and protect value."
-        },{
-          "subtitle": "Mission"
-        },
-        {
-          "text": "Provide strategic consulting and operations services in the area of public affairs and government that contribute to the innovation and development of organizations, meeting their needs and expectations, as well as those of the group of people who work in the organization to achieve profitability and leadership in the market."
-        },{
-          "subtitle": "Vision"
-        },
-        {
-          "text": "To be a global public affairs and Government consulting company, mainly aimed at public State agencies, international organizations and public-private associations, committed to Innovation and Quality in service, which encourages the use of new Technologies to generate value and improve the quality of life of citizens and their relationship with the state."
-        },
-        {
-          "subtitle": "Values"
-        },
-        {
-          "text": "The GSPA Consulting Consultant is governed by the values of Ethics, Transparency, Commitment and Talent."
         }
+
+    ],
+    "team": [
+        {
+            "name": "Reyes Theis",
+            "charge": "Associate political Consultant",
+            "text": "Social communicator from Santa Maria University with postgraduate studies in the areas of politics and public opinion. A specialization in Political Communication and Public Opinion at the Simon Bolivar University and a Master's Degree in Political Science at the same university. He has worked as a journalist in media outlets such as El Universal and El Nacional. He has held management positions in public and private organizations, such as the National Assembly, the Metropolitan Mayor's Office of Caracas and banking, where he has contributed to developing and implementing communication strategies. He has worked hand in hand with political leaders, to accompany them in their public positioning. He is currently a professor of Public Opinion and Political Communication at the Monteavila University, previously he was at the Central University of Venezuela.",
+            "image": "team1.png"
+        },
+        {
+          "name": "Esther Luna",
+          "charge": "Public Affairs and Government Coordinator",
+          "text": "Political Scientist from Universidad Central de Venezuela, with more than 7 years of work experience in the field of Public and Government Affairs, political consulting, and results- based project management. She has held positions within the National Assembly of Venezuela as a presidential advisor, project coordinator, and operational manager. In recent years she has worked in the field of Non-Profit Organizations as Project Supervisor and Executive Project Coordinator. She has advanced studies in Public Affairs at IESA, Political Management, Public Management, and Governance at UCAB; in 2017 she was part of the IVLP program of the U.S. Department of State of the United States of America 'Transparency and Accountability in Government'",
+          "image": "team2.png"
+      },
+      {
+          "name": "Rowdy Romero",
+          "charge": "Science and technology project Coordinator",
+          "text": "BSC in computer Science from the Simón Bolívar University (USB) and MBA from the Institute of Higher Studies in Administration (IESA). Experience in leading Information Technology teams, innovation management and project management with more than 25 years of experience in multiple industries like banking and finance, logistics and consulting. Solid knowledge in every aspect of business applications life-cycle, innovation management, project management with PMI and Scrum methodologies, business intelligence, databases, probability and statistics, artificial intelligence and entrepreneurship.",
+          "image": "team3.png"
+      },
+      {
+          "name": "Juan Carlos Chirinos Martinez",
+          "charge": "Director of Operations",
+          "text": "Electronic Engineer, with 20 years of work experience. Highly qualified professional and group leader to carry out activities such as science and technology project planning, technology innovation, public procurement, strategic alliances, citizen security, technology applied to public services, technical-financial studies of business plans, budget management and personnel supervision. He has held positions as Head of Operations at RCTV and Operations Manager at technology and mass consumption companies. He currently holds the position of Director of Operations at GSPA Consulting, a public affairs and government consultancy, founded in 2016 to start operations in Mexico and Venezuela. I study an MBA, a specialization in Telecommunications Management and a Master in Public Administration at IESA. I also study a Governance and Political Management Program at UCAB and a Governance course at George Washington University. Currently, since 2022, he is also working as a business development partner in a data analysis and artificial intelligence company.",
+          "image": "team4.png"
+      },
+      {
+          "name": "Jose Torrealba",
+          "charge": "Strategic partnerships and contracting Coordinator",
+          "text": "The lawyer Jose Antonio Torrealba Ramírez studied at the Faculty of Law of the Monteávila University during the years 1999-2004, the year in which he obtained the title of Lawyer. In 2002 he was accepted as an intern by the law firm Travieso Evans Arria Rengel & Paz where he remained until 2004. Later he worked as a practicing lawyer in multinational companies such as Johnson & Johnson de Venezuela S.A, Novartis de Venezuela S.A, Marsh & McLennan Companies, American International Group AIG and Micro Focus. In 2020, he began providing his services to North International Bank as Legal Manager, and is a partner in the firm JAT LAW SERVICIES LATAM. His specialization is commercial law, compliance, labor law and litigation. Additionally, I have an MBA in Banking and Alternative Markets from the Tech Universidad Tecnología de México.",
+          "image": "team5.png"
+      },
+      {
+          "name": "Yeremi Rojas",
+          "charge": "Public Policy Evaluation Coordinator",
+          "text": "Yeremi Rojas is an economist graduated from the University of Los Andes and an active professional in the oil field with twenty years of experience. Passionate about public policies, she has studied at important national and international institutes that accredit her as an expert in the subject, holder of a Master's Degree in Public Policy at the IESA, a diploma in Energy Policy completed in London at the University of Sheffield, multiple courses at ILPES of ECLAC and AECID in social public policies, a Senior Management course in International Public Administration at the National Institute of Administration of Portugal and recently given a Diploma in Governance and Innovation at UCAB in alliance with CAF.",
+          "image": "team6.png"
+      },
+      {
+        "name": "Ana de Nobrega",
+        "charge": "Public Relations and Communications Coordinator",
+        "text": "Graduate in Social Communication, with 5 years of work experience. Specialized in digital marketing, team management and public relations. He studied a Master's Degree in Communications, Events and Public Relations at ESDEN Business School (Madrid). He has experience in project management for mass consumption brands such as Polar Pilsen, Harina P.A.N, Solera, Nestea, with projects such as Campamento P.A.N 2020 and Launch of Solera Kriek; Robin Agency with the DIAGEO, Minalba and Gatorade brand group, highlighting projects such as Re-launch of Minalba Sparkling, Johnnie Walker 200th Anniversary and Gatorade Caracas Rock; and in the commercial area for Yummy Super APP Venezuela, accompanying brands such as Tío Rico, Cinnarolls, Grupo Sotano 7, Automercados Plazas and more. It is currently developed as Paid Media for Grupo Mon / James Bark Venezuela.",
+        "image": "team7.png"
+      }
     ],
     "quote": "It's hard to fail, but it's worse to never have tried to succeed.",
-    "contact_summary": "Electronic Engineer, with 20 years of work experience. Highly qualified professional and group leader to carry out activities such as science and technology project planning, public procurement, strategic alliances, citizen security, technology applied to public services, technical-financial studies of business plans, and personnel supervision. He has held positions as Head of Operations at RCTV and Operations Manager at technology and mass consumption companies. He currently holds the position of Director of Operations at GSPA Consulting, a public affairs and government consultancy, founded in 2016 to start operations in Mexico and Venezuela. He studied an MBA, a specialization in Telecommunications Management and a Master in Public Administration at IESA. He also studied a Governance and Political Management Program at UCAB and a Governance course at George Washington University. Currently, since 2022, he is also working as a business development partner in a data analysis and artificial intelligence company."
+    "contact_summary": "Electronic Engineer, with 20 years of work experience. Highly qualified professional and group leader to carry out activities such as science and technology project planning, public procurement, strategic alliances, citizen security, technology applied to public services, technical-financial studies of business plans, and personnel supervision. He has held positions as Head of Operations at RCTV and Operations Manager at technology and mass consumption companies. He currently holds the position of Director of Operations at GSPA Consulting, a public affairs and government consultancy, founded in 2016 to start operations in Mexico and Venezuela. He studied an MBA, a specialization in Telecommunications Management and a Master in Public Administration at IESA. He also studied a Governance and Political Management Program at UCAB and a Governance course at George Washington University. Currently, since 2022, he is also working as a business development partner in a data analysis and artificial intelligence company.",
+    "close": "Close"
 }
