@@ -162,46 +162,54 @@
             "name": "Reyes Theis",
             "charge": "Consultor político asociado",
             "text": "Comunicador social de la Universidad Santa Maria con estudios de postgrado en las áreas de política y de opinión pública. Una especialización en Comunicación política y opinión publica en la Universidad Simon Bolivar y un Master en Ciencia Politica en la misma universidad. Se ha desempeñado como periodista en medios de comunicación como El Universal y El Nacional. Ha ocupado cargos gerenciales en organizaciones públicas y privadas, como la Asamblea Nacional, la Alcaldía Metropolitana de Caracas y la banca, donde ha contribuido a desarrollar e implementar estrategias de comunicación. Ha trabajado de la mano de dirigentes políticos, para acompañarlos en su posicionamiento público. Actualmente es profesor de Opinión Pública y Comunicación Política en la Universidad Monteavila, antes estuvo en la Universidad Central de Venezuela.",
-            "image": "team1.png"
+            "image": "team1"
         },
         {
           "name": "Esther Luna",
           "charge": "Coordinadora de asuntos Publicos y Gobierno",
           "text": "Politóloga de la Universidad Central de Venezuela, con más de 7 años de experiencia laboral en el ámbito de Asuntos Públicos y de Gobierno, consultoría política y gestión de proyectos basados en resultados. Ha ocupado cargos dentro de la Asamblea Nacional de Venezuela como asesora de presidencia, coordinadora de proyectos y gerente operativa. En los últimos años se ha desempeñado dentro del ámbito de las Organizaciones Sin Fines de Lucro como Supervisora de Proyectos y Coordinadora Ejecutiva de Proyectos. Cuenta con estudios superiores en Asuntos Públicos en el IESA, Gestión Política, Gestión Pública y Gobernabilidad en la UCAB; en el 2017 formó parte del programa IVLP del Departamento de Estado de los Estados Unidos América de “Transparency and Accountability in Government”.",
-          "image": "team2.png"
+          "image": "team2"
       },
       {
           "name": "Rowdy Romero",
           "charge": "Coordinador de proyectos de ciencia y tecnología",
           "text": "Ingeniero en Computación egresado de la Universidad Simón Bolívar (USB) y Magister en Administración de Empresas del Instituto de Estudios Superiores en Administración (IESA). Experiencia en dirección de equipos de Tecnología de la Información, gestión de la innovación y gestión de proyectos con más de 25 años de experiencia en múltiples industrias entre banca y finanzas, logística y consultoría. Sólidos conocimientos en todos los aspectos del ciclo de vida de aplicaciones empresariales, gestión de la innovación, gestión de proyectos con metodologías PMI y Scrum, inteligencia de negocios, bases de datos, tópicos en probabilidad y estadística, inteligencia artificial y emprendimiento.",
-          "image": "team3.png"
+          "image": "team3"
       },
       {
           "name": "Juan Carlos Chirinos Martinez",
           "charge": "Director de Operaciones",
           "text": "Ingeniero Electrónico, con 20 años de experiencia laboral. Profesional altamente calificado y líder de grupo para realizar actividades como planificación de proyectos de ciencia y tecnología, innovación tecnológica, contrataciones públicas, alianzas estratégicas, seguridad ciudadana, tecnología aplicada a servicios públicos, estudios técnico-financieros de planes de negocio, manejo de presupuesto y supervisión de personal. Ha ocupado cargos como Jefe de Operaciones en RCTV y Gerente de Operaciones en empresas de tecnología y consumo masivo. Actualmente se desarrolla como Director de Operaciones de GSPA Consulting, siendo esta una consultora de asuntos públicos y gobierno, fundada en el año 2016 iniciando sus operaciones en México y ahora en Venezuela. Estudió un MBA, una especialización en Gerencia de Telecomunicaciones y un Máster en Administración Pública en el IESA. También un Programa de Gobernabilidad y Gerencia Política en la UCAB y un curso de Gobernanza en la George Washington University. Desde el año 2022 también se desempeña como socio de desarrollo de negocios en una empresa de análisis de datos e inteligencia artificial.",
-          "image": "team4.png"
+          "image": "team4"
       },
       {
           "name": "Jose Torrealba",
           "charge": "Coordinador de alianzas estratégicas y contrataciones",
           "text": "El abogado Jose Antonio Torrealba Ramírez estudió en la Facultad de Derecho de la Universidad Monteávila durante los años 1999-2004, año en el cual obtuvo el título de Abogado. En el año 2002 fue aceptado como pasante por la firma de abogados Travieso Evans Arria Rengel & Paz donde permaneció hasta el año 2004. Posteriormente trabajó como abogado en ejercicio en empresas multinacionales como Johnson & Johnson de Venezuela S.A, Novartis de Venezuela S.A, Marsh & McLennan Companies, American International Group AIG y Micro Focus. En el año 2020 comenzó a prestar sus servicios al North International Bank como Gerente Legal, y es socio de la firma JAT LAW SERVICIES LATAM. Su especialización derecho mercantil, compliance, derecho laboral y litigios. Adicionalmente tengo un MBA de Banca y mercados alternos del Tech Universidad Tecnología de México.",
-          "image": "team5.png"
+          "image": "team5"
       },
       {
           "name": "Yeremi Rojas",
           "charge": "Coordinadora de Evaluacion de Politicas Publicas",
           "text": "Yeremi Rojas es una economista egresada de la Universidad de Los Andes y profesional activa en el área petrolera con veinte años de experiencia. Apasionada por las políticas públicas ha cursado estudios en importantes institutos tanto nacionales como internacionales que la acreditan como experta en la materia, poseedora de un Máster en Políticas Públicas en el IESA, un diplomado en Política Energética cursado en Londres en la Universidad de Sheffield, múltiples cursos en el ILPES de la CEPAL y AECID en políticas públicas sociales, un curso de Alta Dirección en Administración Pública Internacional en el Instituto Nacional de Administración de Portugal y de reciente data un Diplomado en Gobernabilidad e Innovación en la UCAB en alianza con la CAF. ",
-          "image": "team6.png"
+          "image": "team6"
       },
       {
         "name": "Ana de Nobrega",
         "charge": "Coordinadora de Relaciones Públicas y Comunicaciones",
         "text": "Licenciada en Comunicación Social, con 5 años de experiencia laboral. Especializada en marketing digital, gestión de equipos y relaciones públicas. Estudió un Máster en Comunicaciones, Eventos y Relaciones Publicas en ESDEN Business School (Madrid). Tiene experiencia en gestión de proyectos de marcas de consumo masivo como Polar Pilsen, Harina P.A.N, Solera, Nestea, con proyectos como Campamento P.A.N 2020 y Lanzamiento de Solera Kriek; Robin Agency con el grupo de marcas DIAGEO, Minalba y Gatorade, destacando proyectos como Re-lanzamiento de Minalba Sparkling, Aniversario 200th de Johnnie Walker y Gatorade Caracas Rock; y en el área comercial para Yummy Super APP Venezuela acompañando a marcas como Tío Rico, Cinnarolls, Grupo Sotano 7, Automercados Plazas y más. Actualmente se desarrolla como Paid Media para Grupo Mon / James Bark Venezuela.",
-        "image": "team7.png"
+        "image": "team7"
       }
     ],
     "quote": "Es difícil fracasar, pero es peor nunca haber intentado tener éxito",
     "contact_summary": "Ingeniero Electrónico, con 20 años de experiencia laboral. Profesional altamente calificado y líder de grupo para realizar actividades como planificación de proyectos de ciencia y tecnología, contrataciones públicas, alianzas estratégicas, seguridad ciudadana, tecnología aplicada a servicios públicos, estudios técnico-financieros de planes de negocio, y supervisión de personal. Ha ocupado cargos como Jefe de Operaciones en RCTV y Gerente de Operaciones en empresas de tecnología y consumo masivo. Actualmente se desarrolla como Director de Operaciones de GSPA Consulting, siendo esta una consultora de asuntos públicos y gobierno, fundada en el año 2016 iniciando sus operaciones en México y Venezuela. Estudió un MBA, una especialización en Gerencia de Telecomunicaciones y un Máster en Administración Pública en el IESA. También un Programa de Gobernabilidad y Gerencia Política en la UCAB y un curso de Gobernanza en la George Washington University. Desde el año 2022 también se desempeña como socio de desarrollo de negocios en una empresa de análisis de datos e inteligencia artificial.",
-    "close": "Cerrar"
+    "close": "Cerrar",
+    "sendUsAMessage": "Envíanos un mensaje",
+    "email": "Correo electrónico",
+    "typeEmail": "Escriba su correo",
+    "name": "Nombre",
+    "typeName": "Escriba su nombre",
+    "message": "Mensaje",
+    "typeMessage": "Escriba un mensaje",
+    "messageReceived": "Muchas gracias, hemos recibido su mensaje"
 }

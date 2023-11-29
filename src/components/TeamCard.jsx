@@ -3,22 +3,52 @@ import { Fragment, useEffect, useState, useRef } from "react"
 import { Avatar, Typography, Button } from "@material-tailwind/react";
 import { useTranslation } from 'react-i18next';
 import { Dialog, Transition } from '@headlessui/react'
+import team1 from '../assets/team1.png';
+import team2 from '../assets/team2.png';
+import team3 from '../assets/team3.png';
+import team4 from '../assets/team4.png';
+import team5 from '../assets/team5.png';
+import team6 from '../assets/team6.png';
+import team7 from '../assets/team7.png';
 
 export default function TeamCard({title, text, classes, subtitle, avatar}) {
     const [shortText, setShortText] = useState('')
     const { t } = useTranslation();
     const [open, setOpen] = useState(false)
     const cancelButtonRef = useRef(null)
-
+    const image = getTeamImage(avatar)
     useEffect(()=>{
         const newText = text.substring(0,300)
         setShortText(newText)
     },[text])
 
+    function getTeamImage(team) {
+        switch (team) {
+          case 'team1':
+            return team1;
+          case 'team2':
+            return team2;
+          case 'team3':
+            return team3;
+          case 'team4':
+            return team4;
+          case 'team5':
+            return team5;
+          case 'team6':
+            return team6;
+          case 'team7':
+            return team7;
+          default:
+            return null;
+        }
+    }
+
+    console.log(getTeamImage('team1'))
+
     return (
       <div className={`flex flex-col justify-center items-center font-poppins mx-3 rounded-lg bg-white shadow-lg overflow-hidden ${classes}`}>
         <div className="bg-blue-dark p-3 w-full flex flex-col justify-center items-center">
-            <Avatar src={`src/assets/${avatar}`} alt={title} withBorder={true} className="p-0.5 border-gray-500" size="xxl" />
+            <Avatar src={image} alt={title} withBorder={true} className="p-0.5 border-gray-500" size="xxl" />
             <Typography variant="lead" className="my-2 text-gray-50 font-poppins px-4 font-semibold text-sm text-center">
                 {title}
             </Typography>
@@ -61,7 +91,7 @@ export default function TeamCard({title, text, classes, subtitle, avatar}) {
                         <div className="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
                         <div className="sm:flex sm:items-start">
                             {/* <div className="mx-auto flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:h-10 sm:w-10"> */}
-                            <Avatar src={`src/assets/${avatar}`} alt={title} withBorder={true} className="p-0.5 border-gray-500" size="xl" />
+                            <Avatar src={image} alt={title} withBorder={true} className="p-0.5 border-gray-500" size="xl" />
                             {/* </div> */}
                             <div className="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left">
                             <Dialog.Title as="h2" className="text-base font-semibold leading-6 text-gray-900">
