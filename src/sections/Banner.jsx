@@ -1,4 +1,4 @@
-import bannerBackground from '../assets/banner.jpg'
+import bannerBackground from '../assets/banner4.png'
 import { Typography } from "@material-tailwind/react";
 import { useTranslation } from 'react-i18next';
 
