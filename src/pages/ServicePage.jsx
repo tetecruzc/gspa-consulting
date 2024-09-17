@@ -1,12 +1,12 @@
 
-import NavBar from "../components/NavBar"
-import { useEffect, useState } from "react";
-import { useParams } from 'react-router-dom';
-import { SERVICES } from "../data/services";
-import { useTranslation } from 'react-i18next';
 import {
-  Typography,
+  Typography
 } from "@material-tailwind/react";
+import { useEffect, useState } from "react";
+import { useTranslation } from 'react-i18next';
+import { useParams } from 'react-router-dom';
+import NavBar from "../components/NavBar";
+import { SERVICES } from "../data/services";
 function ServicePage() {
   const params = useParams();
   const { t } = useTranslation();
@@ -51,9 +51,9 @@ function ServicePage() {
     <>
       <NavBar/>
       <div className={`grid grid-cols-9`} style={{ height: contentHeight }}>
-          <div className="relative h-full bg-center bg-cover bg-no-repeat col-span-9 lg:col-span-4" style={{ backgroundImage: "url(" + service.image + ")" }}>
-            <div className="absolute bg-black opacity-50 w-full h-full"></div>
-            <div className="relative z-10 h-full w-full flex flex-col py-20 md:py-32 pl-10 pr-10 lg:pr-32">
+          <div className="relative h-full col-span-9 bg-center bg-no-repeat bg-cover lg:col-span-4" style={{ backgroundImage: "url(" + service.image + ")" }}>
+            <div className="absolute w-full h-full bg-black opacity-50"></div>
+            <div className="relative z-10 flex flex-col w-full h-full py-20 pl-10 pr-10 md:py-32 lg:pr-32">
               <Typography
                 variant="h2"
                 className={`p-1 font-semibold text-3xl lg:text-4xl xl:text-5xl font-poppins cursor-pointer text-white`}
@@ -71,21 +71,23 @@ function ServicePage() {
           </div>
           {
             service.content && (
-              <div className="col-span-9 lg:col-span-5 p-10 lg:p-20 relative h-max lg:h-full overflow-y-scroll">
+              <div className="relative col-span-9 p-10 overflow-y-scroll lg:col-span-5 lg:p-20 h-max lg:h-full">
                 {t(service.content, { returnObjects: true }).map((item) => {
-                  if (item.text) return (<Typography className={`text-${item.fontSize ? item.fontSize : 'sm'} text-justify mt-2 font-poppins`} variant="lead" key={item.index}>{item.text}</Typography>)
+                  if (item.text) return (<Typography className={`text-${item.fontSize ? item.fontSize : 'sm'} text-justify my-4 font-poppins`} variant="lead" key={item.index}>{item.text}</Typography>)
                   else if (item.list) return (
-                    <ul>
+                    <ul className="ml-3">
                       {item.list.map((listItem,index) => {
                         return (<li className={`text-${item.fontSize ? item.fontSize : 'sm'} text-justify mt-2 font-poppins`} key={index}> 
-                          <span className="text-base text-blue-900 mr-2">✓</span>
+                          <span className="mr-2 text-base text-blue-900">✓</span>
                          {listItem}</li>)
                       })}
                     </ul>
                   )
                   else if (item.subtitle) return (
-                    <Typography className="text-base font-medium text-justify mt-2 font-poppins text-blue-900" variant="lead" key={item.index}>{item.subtitle}</Typography>
+                    <Typography className="mt-2 text-base font-medium text-justify text-blue-900 font-poppins" variant="lead" key={item.index}>{item.subtitle}</Typography>
                   )
+                  else if (item.image) return ( <img src={item.image} alt={item.alt} className="max-w-md mt-5" />)
+                    
                 })}
               </div>
             )

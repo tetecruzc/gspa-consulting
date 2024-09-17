@@ -35,12 +35,19 @@ export const SERVICES = [
         image: service4,
         content: "strategy_and_political_campaigns_content"
     },
+    // {
+    //     index: 5,
+    //     title: "lobbying",
+    //     routeParam: "lobbying",
+    //     image: service5,
+    //     content: "lobbying_content"
+    // },
     {
         index: 5,
-        title: "lobbying",
-        routeParam: "lobbying",
+        title: "cooperation_project_consultancy",
+        routeParam: "international-cooperation-project-consultancy",
         image: service5,
-        content: "lobbying_content"
+        content: "cooperation_project_consultancy_content"
     },
     {
         index: 6,

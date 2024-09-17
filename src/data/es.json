@@ -1,8 +1,8 @@
 {
 
-    "subtitle": "Consultoría de estrategia y operaciones en asuntos públicos y gobierno",
+    "subtitle": "Consultoria de estrategia y operaciones en asuntos públicos y gubernamentales",
     "homePageTitle": "GSPA Consulting | Inicio",
-    "homePageDescription": "Consultoría de estrategia y operaciones en asuntos públicos y gobierno. Realizamos estudios de factibilidad económica, social, de mercado o técnica para la implementación de nuevas políticas, planes, programas o proyectos públicos...",
+    "homePageDescription": "Consultoria de estrategia y operaciones en asuntos públicos y gubernamentales. Realizamos estudios de factibilidad económica, social, de mercado o técnica para la implementación de nuevas políticas, planes, programas o proyectos públicos...",
     "home": "Inicio",
     "who_we_are": "Quiénes somos",
     "us": "Nosotros",
@@ -10,9 +10,10 @@
     "contact": "Contacto",
     "media_strategy": "Estrategia de medios",
     "opinion_studies": "Estudios de opinión",
-    "government_agenda": "Agenda de gobierno",
+    "government_agenda": "Agenda y Planes de Gobierno",
     "strategy_and_political_campaigns": "Estrategia y desarrollo de campañas políticas",
     "lobbying" : "Lobbying",
+    "cooperation_project_consultancy": "Consultoria de proyectos de cooperación internacional",
     "public_policy_evaluation": "Evaluación de políticas públicas",
     "citizen_security": "Seguridad Ciudadana",
     "artificial_inteligence": "Inteligencia Artificial",
@@ -73,13 +74,26 @@
         }
     ],
     "government_agenda_content": [
+      {
+        "subtitle": "La agenda de gobierno"
+      },
         {
-          "text": "La agenda de gobierno es el conjunto de problemas, demandas, cuestiones, asuntos, que los gobernantes han seleccionado y ordenado como objetos de su acción y, más propiamente, como objetos sobre los que han decidido que deben actuar o han considerado que tienen que actuar.",
+          "text": "Es el conjunto de problemas, demandas y asuntos, que los gobernantes han seleccionado y ordenado como objetos de su acción, sobre los que han decidido que deben actuar o han considerado que tienen que actuar.",
           "fontSize": "base"
         },
         {
-          "text": "En GSPA Consulting ayudamos a definir y ordenar cuáles son esos asuntos y demandas que los gobernantes deben decidir.",
+          "text": "En GSPA Consulting ayudamos a definir y ordenar cuáles son esos asuntos y demandas que los gobernantes deben decidir",
           "fontSize": "base"
+        },
+        {
+          "subtitle": "El plan de gobierno"
+        },
+        {
+          "text": "Es un documento que sirve de base y provee los lineamiento​s estratégicos de las políticas públicas formuladas a través de un cargo público de elección popular o de confianza como Gobernadores, alcaldes, Presidente de la República, diputados, entre otros, a través de su equipo de Gobierno. ",
+          "fontSize": "base"
+        }, {
+          "text":"En GSPA Consulting ayudamos a definir indicadores que facilitan el seguimiento y evaluación de las acciones de gobierno y que sirvan de guía para la toma oportuna de decisiones.",
+          "fontSize":"base"
         }
     ],
     "strategy_and_political_campaigns_content": [
@@ -132,6 +146,12 @@
           ]
         }
     ],
+    "cooperation_project_consultancy_content": [
+      {
+        "text": "La cooperación internacional se entiende como una acción conjunta para apoyar el desarrollo económico y social de los países, mediante la transferencia de tecnologías, conocimientos, experiencias o recursos por parte de países con igual o mayor nivel de desarrollo y organizaciones multilaterales como Bancos de Desarrollo y Agencias, Fondos y Programas de las Naciones Unidas. GSPA Consulting es una consultora especializada en el asesoramiento y asistencia en proyectos, programas y políticas de cooperación internacional. Ofrecemos el acompañamiento y asesoría a organizaciones sociales e instituciones públicas en la gestión de proyectos y procesos de licitación. ",
+        "fontSize": "base"
+      }
+    ],
     "public_policy_evaluation_content": [
         {
           "list": [
@@ -144,11 +164,40 @@
             "Salud y educación"
           ],
           "fontSize": "medium"
+        },
+        {
+          "text": "Actualmente la Inteligencia Artificial (IA) ofrece oportunidades interesantes para la solución de problemáticas públicas; entre las aplicaciones posibles destacan:",
+          "fontSize": "base"
+        },
+        {
+          "list": [
+            "Optimización del gasto público",
+            "Detección de fraude en pago de impuestos",
+            "Automatización de procesos.",
+            "Entrega de servicios a la ciudadanía más oportunos, pertinentes y personalizados (ciudades inteligentes)",
+            "Estudios predictivos para mejorar la eficiencias en los sectores productivos",
+            "Indicadores predictivos de gestión de la educación, por ejemplo proyección de deserción escolar",
+            "Democratización del conocimiento",
+            "Indicadores predictivos de gestión de la salud, por ejemplo para identificar posibles pandemias",
+            "Fortalecimiento de la salud preventiva y predictiva"
+          ],
+          "fontSize": "medium"
+        },
+        {
+          "text": "GSPA Consulting está preparado para ofrecer apoyo en todas estas aristas, así como también para acompañar en la ejecución de proyectos piloto que muestren de forma temprana lo que la IA puede ofrecer.",
+          "fontSize":"base"
+        },
+        {
+          "subtitle": "Alianza estrategica con Designers do Futuro"
+        },
+        {
+          "image": "/src/assets/designers_do_futuro.png",
+          "alt": "Designers Do Futuro"
         }
     ],
     "who_we_are_content": [
         {
-            "subtitle": "Consultoría de estrategia y operaciones en asuntos públicos y gobierno"
+            "subtitle": "Consultoria de estrategia y operaciones en asuntos públicos y gubernamentales"
         },
         {
             "text": "En las empresas de consultoría de asuntos públicos como GSPA Consulting realizamos estudios económicos, sociales, de mercado o de viabilidad técnica para la puesta en marcha de nuevas políticas, planes, programas o proyectos públicos. También diseñamos dichas actividades o políticas, así como definimos la estrategia y las operaciones que se deben seguir para su puesta en marcha o lanzamiento, luego evaluamos las actividades que se han puesto en marcha, permitiendo conocer los resultados que se han alcanzado."
@@ -161,49 +210,65 @@
     "team": [
         {
             "name": "Reyes Theis",
-            "charge": "Consultor político asociado",
+            "position": "Consultor político asociado",
             "text": "Comunicador social de la Universidad Santa Maria con estudios de postgrado en las áreas de política y de opinión pública. Una especialización en Comunicación política y opinión publica en la Universidad Simon Bolivar y un Master en Ciencia Politica en la misma universidad. Se ha desempeñado como periodista en medios de comunicación como El Universal y El Nacional. Ha ocupado cargos gerenciales en organizaciones públicas y privadas, como la Asamblea Nacional, la Alcaldía Metropolitana de Caracas y la banca, donde ha contribuido a desarrollar e implementar estrategias de comunicación. Ha trabajado de la mano de dirigentes políticos, para acompañarlos en su posicionamiento público. Actualmente es profesor de Opinión Pública y Comunicación Política en la Universidad Monteavila, antes estuvo en la Universidad Central de Venezuela.",
             "image": "team1"
         },
         {
           "name": "Esther Luna",
-          "charge": "Coordinadora de asuntos Publicos y Gobierno",
+          "position": "Coordinadora de asuntos Publicos y Gobierno",
           "text": "Politóloga de la Universidad Central de Venezuela, con más de 7 años de experiencia laboral en el ámbito de Asuntos Públicos y de Gobierno, consultoría política y gestión de proyectos basados en resultados. Ha ocupado cargos dentro de la Asamblea Nacional de Venezuela como asesora de presidencia, coordinadora de proyectos y gerente operativa. En los últimos años se ha desempeñado dentro del ámbito de las Organizaciones Sin Fines de Lucro como Supervisora de Proyectos y Coordinadora Ejecutiva de Proyectos. Cuenta con estudios superiores en Asuntos Públicos en el IESA, Gestión Política, Gestión Pública y Gobernabilidad en la UCAB; en el 2017 formó parte del programa IVLP del Departamento de Estado de los Estados Unidos América de “Transparency and Accountability in Government”.",
           "image": "team2"
       },
       {
           "name": "Rowdy Romero",
-          "charge": "Coordinador de proyectos de ciencia y tecnología",
+          "position": "Coordinador de proyectos de ciencia y tecnología",
           "text": "Ingeniero en Computación egresado de la Universidad Simón Bolívar (USB) y Magister en Administración de Empresas del Instituto de Estudios Superiores en Administración (IESA). Experiencia en dirección de equipos de Tecnología de la Información, gestión de la innovación y gestión de proyectos con más de 25 años de experiencia en múltiples industrias entre banca y finanzas, logística y consultoría. Sólidos conocimientos en todos los aspectos del ciclo de vida de aplicaciones empresariales, gestión de la innovación, gestión de proyectos con metodologías PMI y Scrum, inteligencia de negocios, bases de datos, tópicos en probabilidad y estadística, inteligencia artificial y emprendimiento.",
           "image": "team3"
       },
       {
           "name": "Juan Carlos Chirinos Martinez",
-          "charge": "Director de Operaciones",
-          "text": "Ingeniero Electrónico, con 20 años de experiencia laboral. Profesional altamente calificado y líder de grupo para realizar actividades como planificación de proyectos de ciencia y tecnología, innovación tecnológica, contrataciones públicas, alianzas estratégicas, seguridad ciudadana, tecnología aplicada a servicios públicos, estudios técnico-financieros de planes de negocio, manejo de presupuesto y supervisión de personal. Ha ocupado cargos como Jefe de Operaciones en RCTV y Gerente de Operaciones en empresas de tecnología y consumo masivo. Actualmente se desarrolla como Director de Operaciones de GSPA Consulting, siendo esta una consultora de asuntos públicos y gobierno, fundada en el año 2016 iniciando sus operaciones en México y ahora en Venezuela. Estudió un MBA, una especialización en Gerencia de Telecomunicaciones y un Máster en Administración Pública en el IESA. También un Programa de Gobernabilidad y Gerencia Política en la UCAB y un curso de Gobernanza en la George Washington University. Desde el año 2022 también se desempeña como socio de desarrollo de negocios en una empresa de análisis de datos e inteligencia artificial.",
+          "position": "Director de Operaciones",
+          "text": "Ingeniero Electrónico, con 20 años de experiencia laboral. Profesional altamente calificado y líder de grupo para realizar actividades como planificación de proyectos de ciencia y tecnología, innovación tecnológica, contrataciones públicas, alianzas estratégicas, seguridad ciudadana, tecnología aplicada a servicios públicos, estudios técnico-financieros de planes de negocio, manejo de presupuesto y supervisión de personal. Ha ocupado cargos como Jefe de Operaciones en RCTV y Gerente de Operaciones en empresas de tecnología y consumo masivo. Actualmente se desarrolla como Director de Operaciones de GSPA Consulting, siendo esta una consultora de asuntos públicos y gubernamentales, fundada en el año 2016 iniciando sus operaciones en México y ahora en Venezuela. Estudió un MBA, una especialización en Gerencia de Telecomunicaciones y un Máster en Administración Pública en el IESA. También un Programa de Gobernabilidad y Gerencia Política en la UCAB y un curso de Gobernanza en la George Washington University. Desde el año 2022 también se desempeña como socio de desarrollo de negocios en una empresa de análisis de datos e inteligencia artificial.",
           "image": "team4"
       },
       {
           "name": "Jose Torrealba",
-          "charge": "Coordinador de alianzas estratégicas y contrataciones",
+          "position": "Coordinador de alianzas estratégicas y contrataciones",
           "text": "El abogado Jose Antonio Torrealba Ramírez estudió en la Facultad de Derecho de la Universidad Monteávila durante los años 1999-2004, año en el cual obtuvo el título de Abogado. En el año 2002 fue aceptado como pasante por la firma de abogados Travieso Evans Arria Rengel & Paz donde permaneció hasta el año 2004. Posteriormente trabajó como abogado en ejercicio en empresas multinacionales como Johnson & Johnson de Venezuela S.A, Novartis de Venezuela S.A, Marsh & McLennan Companies, American International Group AIG y Micro Focus. En el año 2020 comenzó a prestar sus servicios al North International Bank como Gerente Legal, y es socio de la firma JAT LAW SERVICIES LATAM. Su especialización derecho mercantil, compliance, derecho laboral y litigios. Adicionalmente tengo un MBA de Banca y mercados alternos del Tech Universidad Tecnología de México.",
           "image": "team5"
       },
       {
           "name": "Yeremi Rojas",
-          "charge": "Coordinadora de Evaluacion de Politicas Publicas",
+          "position": "Coordinadora de Evaluacion de Politicas Publicas",
           "text": "Yeremi Rojas es una economista egresada de la Universidad de Los Andes y profesional activa en el área petrolera con veinte años de experiencia. Apasionada por las políticas públicas ha cursado estudios en importantes institutos tanto nacionales como internacionales que la acreditan como experta en la materia, poseedora de un Máster en Políticas Públicas en el IESA, un diplomado en Política Energética cursado en Londres en la Universidad de Sheffield, múltiples cursos en el ILPES de la CEPAL y AECID en políticas públicas sociales, un curso de Alta Dirección en Administración Pública Internacional en el Instituto Nacional de Administración de Portugal y de reciente data un Diplomado en Gobernabilidad e Innovación en la UCAB en alianza con la CAF. ",
           "image": "team6"
       },
       {
         "name": "Ana de Nobrega",
-        "charge": "Coordinadora de Relaciones Públicas y Comunicaciones",
+        "position": "Coordinadora de Relaciones Públicas y Comunicaciones",
         "text": "Licenciada en Comunicación Social, con 5 años de experiencia laboral. Especializada en marketing digital, gestión de equipos y relaciones públicas. Estudió un Máster en Comunicaciones, Eventos y Relaciones Publicas en ESDEN Business School (Madrid). Tiene experiencia en gestión de proyectos de marcas de consumo masivo como Polar Pilsen, Harina P.A.N, Solera, Nestea, con proyectos como Campamento P.A.N 2020 y Lanzamiento de Solera Kriek; Robin Agency con el grupo de marcas DIAGEO, Minalba y Gatorade, destacando proyectos como Re-lanzamiento de Minalba Sparkling, Aniversario 200th de Johnnie Walker y Gatorade Caracas Rock; y en el área comercial para Yummy Super APP Venezuela acompañando a marcas como Tío Rico, Cinnarolls, Grupo Sotano 7, Automercados Plazas y más. Actualmente se desarrolla como Paid Media para Grupo Mon / James Bark Venezuela.",
         "image": "team7"
+      },
+      {
+        "name": "Ana Carolina Crespo",
+        "position": "Directora de Asuntos Gubernamentales",
+        "text": "Doctorando Ciencias Políticas de la Universidad Central con experiencia en organizaciones sectoriales y cúpula de Venezuela y Magister en Gerencia Publica del IESA del sector terciario de la economía; ocupando allí cargo en ámbitos de análisis económico y legislativo, relacione institucionales, dirección y presidencia ejecutiva Especializada consultoría en asuntos públicos, política  estrategia comunicacional, organización de eventos diseño y ejecución de proyectos, planificación, formació de capital humano y docencia universitaria.",
+        "image": "team8"
+      },
+      {
+        "name" : "Osmar Mata",
+        "position": "Colaborador adjunto en en el área de Asuntos Internacionales",
+        "text": "Licenciado en Estudios Internacionales, con experiencia en proyectos de Cooperación Internacional a través de organismos internacionales"
+      },
+      {
+        "name" : "Ana Maria Alves",
+        "position": "Colaboradora adjunta en el área de generación de contenido y posicionamiento de marca",
+        "text": "Economista con especialización en Mercadotecnia y experiencia en investigación de mercados y docencia universitaria."
       }
     ],
     "quote": "Es difícil fracasar, pero es peor nunca haber intentado tener éxito",
-    "contact_summary": "Ingeniero Electrónico, con 20 años de experiencia laboral. Profesional altamente calificado y líder de grupo para realizar actividades como planificación de proyectos de ciencia y tecnología, contrataciones públicas, alianzas estratégicas, seguridad ciudadana, tecnología aplicada a servicios públicos, estudios técnico-financieros de planes de negocio, y supervisión de personal. Ha ocupado cargos como Jefe de Operaciones en RCTV y Gerente de Operaciones en empresas de tecnología y consumo masivo. Actualmente se desarrolla como Director de Operaciones de GSPA Consulting, siendo esta una consultora de asuntos públicos y gobierno, fundada en el año 2016 iniciando sus operaciones en México y Venezuela. Estudió un MBA, una especialización en Gerencia de Telecomunicaciones y un Máster en Administración Pública en el IESA. También un Programa de Gobernabilidad y Gerencia Política en la UCAB y un curso de Gobernanza en la George Washington University. Desde el año 2022 también se desempeña como socio de desarrollo de negocios en una empresa de análisis de datos e inteligencia artificial.",
+    "contact_summary": "Ingeniero Electrónico, con 20 años de experiencia laboral. Profesional altamente calificado y líder de grupo para realizar actividades como planificación de proyectos de ciencia y tecnología, contrataciones públicas, alianzas estratégicas, seguridad ciudadana, tecnología aplicada a servicios públicos, estudios técnico-financieros de planes de negocio, y supervisión de personal. Ha ocupado cargos como Jefe de Operaciones en RCTV y Gerente de Operaciones en empresas de tecnología y consumo masivo. Actualmente se desarrolla como Director de Operaciones de GSPA Consulting, siendo esta una consultora de asuntos públicos y gubernamentales, fundada en el año 2016 iniciando sus operaciones en México y Venezuela. Estudió un MBA, una especialización en Gerencia de Telecomunicaciones y un Máster en Administración Pública en el IESA. También un Programa de Gobernabilidad y Gerencia Política en la UCAB y un curso de Gobernanza en la George Washington University. Desde el año 2022 también se desempeña como socio de desarrollo de negocios en una empresa de análisis de datos e inteligencia artificial.",
     "close": "Cerrar",
     "sendUsAMessage": "Envíanos un mensaje",
     "email": "Correo electrónico",

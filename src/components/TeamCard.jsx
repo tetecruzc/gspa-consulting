@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
-import { Fragment, useEffect, useState, useRef } from "react"
-import { Avatar, Typography, Button } from "@material-tailwind/react";
+import { Dialog, Transition } from '@headlessui/react';
+import { Avatar, Button, Typography } from "@material-tailwind/react";
+import { Fragment, useEffect, useRef, useState } from "react";
 import { useTranslation } from 'react-i18next';
-import { Dialog, Transition } from '@headlessui/react'
 import team1 from '../assets/team1.png';
 import team2 from '../assets/team2.png';
 import team3 from '../assets/team3.png';
@@ -10,6 +10,8 @@ import team4 from '../assets/team4.png';
 import team5 from '../assets/team5.png';
 import team6 from '../assets/team6.png';
 import team7 from '../assets/team7.png';
+import team8 from '../assets/team8.png';
+import user from '../assets/user.png';
 
 export default function TeamCard({title, text, classes, subtitle, avatar}) {
     const [shortText, setShortText] = useState('')
@@ -38,8 +40,10 @@ export default function TeamCard({title, text, classes, subtitle, avatar}) {
             return team6;
           case 'team7':
             return team7;
+          case 'team8':
+            return team8;
           default:
-            return null;
+            return user;
         }
     }
 
@@ -47,18 +51,18 @@ export default function TeamCard({title, text, classes, subtitle, avatar}) {
 
     return (
       <div className={`flex flex-col justify-center items-center font-poppins mx-3 rounded-lg bg-white shadow-lg overflow-hidden ${classes}`}>
-        <div className="bg-blue-dark p-3 w-full flex flex-col justify-center items-center">
+        <div className="flex flex-col items-center justify-center w-full p-3 bg-blue-dark">
             <Avatar src={image} alt={title} withBorder={true} className="p-0.5 border-gray-500" size="xxl" />
-            <Typography variant="lead" className="my-2 text-gray-50 font-poppins px-4 font-semibold text-sm text-center">
+            <Typography variant="lead" className="px-4 my-2 text-sm font-semibold text-center text-gray-50 font-poppins">
                 {title}
             </Typography>
-            <Typography variant="lead" className="text-gray-50 font-poppins px-4 font-semibold text-sm text-center">
+            <Typography variant="lead" className="px-4 text-sm font-semibold text-center text-gray-50 font-poppins">
                 {subtitle}
             </Typography>
         </div>
-        <div className="p-3 flex flex-col items-center">
+        <div className="flex flex-col items-center p-3">
             <p className={`text-xs text-center mt-5 px-3`}>{shortText}...</p>
-            <Button variant="filled" size="md" className='bg-red-900 w-max mx-auto mt-3' ripple={true} onClick={()=> setOpen(true)}>
+            <Button variant="filled" size="md" className='mx-auto mt-3 bg-red-900 w-max' ripple={true} onClick={()=> setOpen(true)}>
                 {t('read_more')}
             </Button>
         </div>
@@ -73,11 +77,11 @@ export default function TeamCard({title, text, classes, subtitle, avatar}) {
                 leaveFrom="opacity-100"
                 leaveTo="opacity-0"
                 >
-                    <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
+                    <div className="fixed inset-0 transition-opacity bg-gray-500 bg-opacity-75" />
                 </Transition.Child>
 
                 <div className="fixed inset-0 z-10 w-screen overflow-y-auto">
-                <div className="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+                <div className="flex items-end justify-center min-h-full p-4 text-center sm:items-center sm:p-0">
                     <Transition.Child
                     as={Fragment}
                     enter="ease-out duration-300"
@@ -87,10 +91,10 @@ export default function TeamCard({title, text, classes, subtitle, avatar}) {
                     leaveFrom="opacity-100 translate-y-0 sm:scale-100"
                     leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
                     >
-                    <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-xl">
-                        <div className="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
+                    <Dialog.Panel className="relative overflow-hidden text-left transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:w-full sm:max-w-xl">
+                        <div className="px-4 pt-5 pb-4 bg-white sm:p-6 sm:pb-4">
                         <div className="sm:flex sm:items-start">
-                            {/* <div className="mx-auto flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:h-10 sm:w-10"> */}
+                            {/* <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 mx-auto bg-red-100 rounded-full sm:mx-0 sm:h-10 sm:w-10"> */}
                             <Avatar src={image} alt={title} withBorder={true} className="p-0.5 border-gray-500" size="xl" />
                             {/* </div> */}
                             <div className="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left">
@@ -108,10 +112,10 @@ export default function TeamCard({title, text, classes, subtitle, avatar}) {
                             </div>
                         </div>
                         </div>
-                        <div className="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
+                        <div className="px-4 py-3 bg-gray-50 sm:flex sm:flex-row-reverse sm:px-6">
                         <button
                             type="button"
-                            className="inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto"
+                            className="inline-flex justify-center w-full px-3 py-2 text-sm font-semibold text-white bg-red-600 rounded-md shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto"
                             onClick={() => setOpen(false)}
                         >
                             {t('close')}

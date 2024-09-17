@@ -13,6 +13,7 @@
     "government_agenda": "Governmet agenda",
     "strategy_and_political_campaigns": "Strategy and development of political campaigns",
     "lobbying" : "Lobbying",
+    "cooperation_project_consultancy": "International cooperation project consultancy",
     "public_policy_evaluation": "Public Policy Evaluation",
     "citizen_security": "Seguridad Ciudadana",
     "artificial_inteligence": "Inteligencia Artificial",
@@ -81,6 +82,9 @@
         }
       ],
     "government_agenda_content": [
+      {
+        "subtitle": "The government agenda"
+      },
         {
           "text": "The government agenda is the set of problems, demands, questions, issues, that the rulers have selected and ordered as objects of their action and, more properly, as objects on which they have decided that they should act or have considered that they have to act.",
           "fontSize": "base"
@@ -88,6 +92,16 @@
         {
           "text": "At GSPA Consulting we help define and order what are those issues and demands that rulers must decide.",
           "fontSize": "base"
+        },
+        {
+          "subtitle": "The government plan"
+        },
+        {
+          "text": "It is a document that serves as a basis and provides the strategic guidelines for public policies formulated through a public office of popular election or trust, such as Governors, mayors, President of the Republic, deputies, among others, through their government team.",
+          "fontSize": "base"
+        }, {
+          "text":"At GSPA Consulting we help define indicators that facilitate the monitoring and evaluation of government actions and that serve as a guide for timely decision-making.",
+          "fontSize":"base"
         }
       ]
       ,
@@ -141,8 +155,13 @@
             "Evaluation"
           ]
         }
-      ]
-      ,
+      ],
+    "cooperation_project_consultancy_content": [
+      {
+        "text": "International cooperation is understood as a joint action to support the economic and social development of countries, through the transfer of technologies, knowledge, experiences or resources by countries with equal or higher levels of development and multilateral organizations such as Development Banks and United Nations Agencies, Funds and Programs. GSPA Consulting is a consulting firm specialized in advising and assisting in international cooperation projects, programs and policies. We offer support and advice to social organizations and public institutions in project management and bidding processes.",
+        "fontSize": "base"
+      }
+    ],
     "public_policy_evaluation_content": [
         {
           "list": [
@@ -155,6 +174,35 @@
             "Health and education"
           ],
           "fontSize": "medium"
+        },
+        {
+          "text": "Currently, Artificial Intelligence (AI) offers interesting opportunities to solve public issues; among the possible applications are:",
+          "fontSize": "base"
+        },
+        {
+          "list": [
+            "Optimization of public spending",
+            "Fraud detection in tax payments",
+            "Process automation",
+            "More timely, relevant, and personalized service delivery to citizens (smart cities)",
+            "Predictive studies to improve efficiency in productive sectors",
+            "Predictive indicators in education management, such as school dropout projection",
+            "Democratization of knowledge",
+            "Predictive indicators in health management, for example, to identify potential pandemics",
+            "Strengthening preventive and predictive health"
+          ],
+          "fontSize": "medium"
+        },
+        {
+          "text": "GSPA Consulting is ready to offer support in all these areas, as well as to assist in the execution of pilot projects that can early demonstrate what AI can offer.",
+          "fontSize": "base"
+        },
+        {
+          "subtitle": "Strategic partnership with Designers do Futuro"
+        },
+        {
+          "image": "/src/assets/designers_do_futuro.png",
+          "alt": "Designers Do Futuro"
         }
     ],
     "who_we_are_content": [
@@ -172,45 +220,51 @@
     "team": [
         {
             "name": "Reyes Theis",
-            "charge": "Associate political Consultant",
+            "position": "Associate political Consultant",
             "text": "Social communicator from Santa Maria University with postgraduate studies in the areas of politics and public opinion. A specialization in Political Communication and Public Opinion at the Simon Bolivar University and a Master's Degree in Political Science at the same university. He has worked as a journalist in media outlets such as El Universal and El Nacional. He has held management positions in public and private organizations, such as the National Assembly, the Metropolitan Mayor's Office of Caracas and banking, where he has contributed to developing and implementing communication strategies. He has worked hand in hand with political leaders, to accompany them in their public positioning. He is currently a professor of Public Opinion and Political Communication at the Monteavila University, previously he was at the Central University of Venezuela.",
             "image": "team1"
         },
         {
           "name": "Esther Luna",
-          "charge": "Public Affairs and Government Coordinator",
+          "position": "Public Affairs and Government Coordinator",
           "text": "Political Scientist from Universidad Central de Venezuela, with more than 7 years of work experience in the field of Public and Government Affairs, political consulting, and results- based project management. She has held positions within the National Assembly of Venezuela as a presidential advisor, project coordinator, and operational manager. In recent years she has worked in the field of Non-Profit Organizations as Project Supervisor and Executive Project Coordinator. She has advanced studies in Public Affairs at IESA, Political Management, Public Management, and Governance at UCAB; in 2017 she was part of the IVLP program of the U.S. Department of State of the United States of America 'Transparency and Accountability in Government'",
           "image": "team2"
       },
       {
           "name": "Rowdy Romero",
-          "charge": "Science and technology project Coordinator",
+          "position": "Science and technology project Coordinator",
           "text": "BSC in computer Science from the Simón Bolívar University (USB) and MBA from the Institute of Higher Studies in Administration (IESA). Experience in leading Information Technology teams, innovation management and project management with more than 25 years of experience in multiple industries like banking and finance, logistics and consulting. Solid knowledge in every aspect of business applications life-cycle, innovation management, project management with PMI and Scrum methodologies, business intelligence, databases, probability and statistics, artificial intelligence and entrepreneurship.",
           "image": "team3"
       },
       {
           "name": "Juan Carlos Chirinos Martinez",
-          "charge": "Director of Operations",
+          "position": "Director of Operations",
           "text": "Electronic Engineer, with 20 years of work experience. Highly qualified professional and group leader to carry out activities such as science and technology project planning, technology innovation, public procurement, strategic alliances, citizen security, technology applied to public services, technical-financial studies of business plans, budget management and personnel supervision. He has held positions as Head of Operations at RCTV and Operations Manager at technology and mass consumption companies. He currently holds the position of Director of Operations at GSPA Consulting, a public affairs and government consultancy, founded in 2016 to start operations in Mexico and Venezuela. I study an MBA, a specialization in Telecommunications Management and a Master in Public Administration at IESA. I also study a Governance and Political Management Program at UCAB and a Governance course at George Washington University. Currently, since 2022, he is also working as a business development partner in a data analysis and artificial intelligence company.",
           "image": "team4"
       },
       {
           "name": "Jose Torrealba",
-          "charge": "Strategic partnerships and contracting Coordinator",
+          "position": "Strategic partnerships and contracting Coordinator",
           "text": "The lawyer Jose Antonio Torrealba Ramírez studied at the Faculty of Law of the Monteávila University during the years 1999-2004, the year in which he obtained the title of Lawyer. In 2002 he was accepted as an intern by the law firm Travieso Evans Arria Rengel & Paz where he remained until 2004. Later he worked as a practicing lawyer in multinational companies such as Johnson & Johnson de Venezuela S.A, Novartis de Venezuela S.A, Marsh & McLennan Companies, American International Group AIG and Micro Focus. In 2020, he began providing his services to North International Bank as Legal Manager, and is a partner in the firm JAT LAW SERVICIES LATAM. His specialization is commercial law, compliance, labor law and litigation. Additionally, I have an MBA in Banking and Alternative Markets from the Tech Universidad Tecnología de México.",
           "image": "team5"
       },
       {
           "name": "Yeremi Rojas",
-          "charge": "Public Policy Evaluation Coordinator",
+          "position": "Public Policy Evaluation Coordinator",
           "text": "Yeremi Rojas is an economist graduated from the University of Los Andes and an active professional in the oil field with twenty years of experience. Passionate about public policies, she has studied at important national and international institutes that accredit her as an expert in the subject, holder of a Master's Degree in Public Policy at the IESA, a diploma in Energy Policy completed in London at the University of Sheffield, multiple courses at ILPES of ECLAC and AECID in social public policies, a Senior Management course in International Public Administration at the National Institute of Administration of Portugal and recently given a Diploma in Governance and Innovation at UCAB in alliance with CAF.",
           "image": "team6"
       },
       {
         "name": "Ana de Nobrega",
-        "charge": "Public Relations and Communications Coordinator",
+        "position": "Public Relations and Communications Coordinator",
         "text": "Graduate in Social Communication, with 5 years of work experience. Specialized in digital marketing, team management and public relations. He studied a Master's Degree in Communications, Events and Public Relations at ESDEN Business School (Madrid). He has experience in project management for mass consumption brands such as Polar Pilsen, Harina P.A.N, Solera, Nestea, with projects such as Campamento P.A.N 2020 and Launch of Solera Kriek; Robin Agency with the DIAGEO, Minalba and Gatorade brand group, highlighting projects such as Re-launch of Minalba Sparkling, Johnnie Walker 200th Anniversary and Gatorade Caracas Rock; and in the commercial area for Yummy Super APP Venezuela, accompanying brands such as Tío Rico, Cinnarolls, Grupo Sotano 7, Automercados Plazas and more. It is currently developed as Paid Media for Grupo Mon / James Bark Venezuela.",
         "image": "team7"
+      },
+      {
+        "name": "Ana Carolina Crespo",
+        "position": "Director of Government Affairs",
+        "text": "PhD candidate in Political Science from the Universidad Central with experience in sectoral organizations and leadership in Venezuela and Master in Public Management from IESA in the tertiary sector of the economy; there she held positions in the areas of economic and legislative analysis, institutional relations, management and executive presidency. Specialized in consulting in public affairs, policy, communication strategy, event organization, project design and execution, planning, human capital training and university teaching.",
+        "image": "team8"
       }
     ],
     "quote": "It's hard to fail, but it's worse to never have tried to succeed.",

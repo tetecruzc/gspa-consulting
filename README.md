@@ -1,6 +1,6 @@
 # 🏆 *GSPA Consulting* 👨🏽‍⚖️
 
-## Página web personalizada para GSPA Consulting, consultoría en estrategia de gobierno y asuntos públicos
+## Página web personalizada para GSPA Consulting, consultoría en estrategia de gobierno y gubernamentales
 
 ## 🛠 Instalación y deploy
 

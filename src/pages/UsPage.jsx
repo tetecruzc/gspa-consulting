@@ -1,10 +1,10 @@
 
-import NavBar from "../components/NavBar"
-import { useTranslation } from 'react-i18next';
 import {
   Typography,
 } from "@material-tailwind/react";
-import service1 from '../assets/service1.jpg'
+import { useTranslation } from 'react-i18next';
+import service1 from '../assets/service1.jpg';
+import NavBar from "../components/NavBar";
 import NumberCard from "../components/NumberCard";
 import TeamCard from '../components/TeamCard';
 import MapaMundi from '../components/svg/MapaMundi';
@@ -16,9 +16,9 @@ function UsPage() {
     <div className="overflow-hidden">
       <NavBar/>
       <div className={`grid grid-cols-9`}>
-          <div className="relative h-full bg-center bg-cover bg-no-repeat col-span-9 lg:col-span-4" style={{ backgroundImage: "url(" + service1 + ")" }}>
-            <div className="absolute bg-black opacity-50 w-full h-full"></div>
-            <div className="relative z-10 h-full w-full flex flex-col py-20 md:py-32 pl-10 pr-10 lg:pr-32">
+          <div className="relative h-full col-span-9 bg-center bg-no-repeat bg-cover lg:col-span-4" style={{ backgroundImage: "url(" + service1 + ")" }}>
+            <div className="absolute w-full h-full bg-black opacity-50"></div>
+            <div className="relative z-10 flex flex-col w-full h-full py-20 pl-10 pr-10 md:py-32 lg:pr-32">
               <Typography
                 variant="h2"
                 className={`p-1 font-semibold text-3xl lg:text-4xl xl:text-5xl font-poppins cursor-pointer text-white`}
@@ -35,27 +35,27 @@ function UsPage() {
             </div>
           </div>
 
-          <div className="col-span-9 lg:col-span-5 p-10 lg:p-20 relative h-max lg:h-full">
+          <div className="relative col-span-9 p-10 lg:col-span-5 lg:p-20 h-max lg:h-full">
             {t('who_we_are_content', { returnObjects: true }).map((item, index) => {
               if (item.text) return (<Typography key={index} className={`text-${item.fontSize ? item.fontSize : 'sm'} text-justify mt-2 font-poppins`} variant="lead">{item.text}</Typography>)
               else if (item.list) return (
                 <ul key={index}>
                   {item.list.map((listItem,index) => {
                     return (<li className={`text-${item.fontSize ? item.fontSize : 'sm'} text-justify mt-2 font-poppins`} key={index}> 
-                      <span className="text-base text-blue-900 mr-2">✓</span>
+                      <span className="mr-2 text-base text-blue-900">✓</span>
                       {listItem}</li>)
                   })}
                 </ul>
               )
               else if (item.subtitle) return (
-                <Typography key={index} className="text-base font-medium text-justify mt-2 font-poppins text-blue-900" variant="lead">{item.subtitle}</Typography>
+                <Typography key={index} className="mt-2 text-base font-medium text-justify text-blue-900 font-poppins" variant="lead">{item.subtitle}</Typography>
               )
             })}
           </div>
       </div>
       <section className="relative p-10">
         <MapaMundi classes="absolute top-[-15px] right-[-35%] z-0"/>
-        <div className="flex flex-wrap justify-center relative z-1">
+        <div className="relative flex flex-wrap justify-center z-1">
           {t('us_cards', { returnObjects: true }).map((item, index) => {
             return (
                 <NumberCard key={index} size="big" title={item.title} titleSize="medium" text={item.text}  classes="m-6" />
@@ -64,8 +64,8 @@ function UsPage() {
         </div>
       </section>
       <section className="p-10">
-        <div className="flex flex-col justify-center items-center w-full">
-              <Typography variant="h2" className="text-red-700 font-poppins px-1 sm:px-4 font-semibold text-3xl text-center uppercase">
+        <div className="flex flex-col items-center justify-center w-full">
+              <Typography variant="h2" className="px-1 text-3xl font-semibold text-center text-red-700 uppercase font-poppins sm:px-4">
                   {t('our_team')}
               </Typography>
               <div className="h-[2px] w-[60px] bg-blue-900 mt-3"></div>
@@ -74,7 +74,7 @@ function UsPage() {
             {t('team', { returnObjects: true }).map((item, index) => {
               return (
                 <div key={index} className="col-span-12 sm:col-span-6 lg:col-span-4">
-                  <TeamCard size="big" title={item.name} avatar={item.image} subtitle={item.charge} titleSize="medium" text={item.text} classes="h-full" />
+                  <TeamCard size="big" title={item.name} avatar={item.image} subtitle={item.position} titleSize="medium" text={item.text} classes="h-full" />
                 </div>
               )
             })}
